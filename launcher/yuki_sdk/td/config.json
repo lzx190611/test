@@ -1,0 +1,25 @@
+{
+    "class": "com.morechili.yuki.library.TDImpl",
+    "maven":[
+    ],
+    "libs":[
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "BC_TD_ID",
+        "BC_TD_CHANNLE",
+        "BC_TD_ADAPTERSZ"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "descrip": [
+        "BC_TD_ADAPTERSZ 适配深圳sdk的渠道信息",
+        ""
+    ],
+    "libtype": "Analytics",
+    "libname": "TD_统计"
+}

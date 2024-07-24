@@ -1,0 +1,27 @@
+{
+    "class": "com.morechili.yuki.library.OPPOSuperImpl",
+    "maven":[
+    ],
+    "libs":[
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.jakewharton.timber:timber:5.0.1",
+        "androidx.appcompat:appcompat:1.0.2"
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "OPPO_SUPER_BC_APP_SECRET",
+        "OPPO_SUPER_PAY_CALLBACK_URL",
+        "OPPO_SUPER_LEISURE_SUBJECT"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "descrip": [
+        "APP_KEY需要生成AndroidManifest.xml文件放到copy路径下(sdk[opposuper])"
+    ],
+    "libtype": "SDK",
+    "libname": "OPPO_SDK(SUPER)"
+}

@@ -1,0 +1,27 @@
+{
+    "class": "com.morechili.yuki.library.M233ADSImpl",
+    "maven":[
+    ],
+    "libs":[
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "YUKI_BC_233ADS_APP_ID",
+        "YUKI_BC_233ADS_NATIVE_ID",
+        "YUKI_BC_233ADS_INSERT_ID",
+        "YUKI_BC_233ADS_REWARD_ID",
+        "YUKI_BC_233ADS_IS_DEPUTY"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "descrip": [
+        "YUKI_BC_233ADS_APP_ID 应用key：",
+        "YUKI_BC_233ADS_NATIVE_ID 目前不支持,随意填写后默认调用 INSERT_ID 广告"
+    ],
+    "libtype": "AD",
+    "libname": "233_广告"
+}

@@ -1,0 +1,25 @@
+{
+    "class": "com.morechili.yuki.library.M9GamesImpl",
+    "maven":[
+    ],
+    "libs":[
+        "com.google.code.gson:gson:2.9.1"
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "YUKI_BC_9GAMES_GAME_ID",
+        "YUKI_BC_9GAMES_PAY_NOTIFY_URL"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "descrip": [
+        "在assets⽬录下创建“UCPaySDK”文件夹，将开放平台下载的pay.png⽀付⽂件放进去",
+        "注意配置AndroidManifest.xml参数"
+    ],
+    "libtype": "SDK",
+    "libname": "9GAMES_SDK"
+}

@@ -1,0 +1,23 @@
+{
+    "class": "com.morechili.yuki.library.sdkopen.SDKOpenController",
+    "maven":[
+    ],
+    "libs":[
+        "com.google.code.gson:gson:2.8.5"
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "YUKI_BC_SDKOPEN_HIDEADBTN"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "descrip":[
+
+    ],
+    "libtype": "Switch",
+    "libname": "SDKOpen_开关"
+}

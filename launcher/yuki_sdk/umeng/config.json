@@ -1,0 +1,24 @@
+{
+    "class": "com.morechili.yuki.library.UmengImpl",
+    "maven":[
+        "https://repo1.maven.org/maven2/"
+    ],
+    "libs":[
+        "com.umeng.umsdk:common:9.5.0",
+        "com.umeng.umsdk:asms:1.5.0",
+        "com.umeng.umsdk:apm:1.6.2"
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "YUKI_BC_UMENG_KEY",
+        "YUKI_BC_UMENG_CHANNLE" 
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "libtype": "Analytics",
+    "libname": "友盟_统计"
+}

@@ -1,0 +1,29 @@
+{
+    "class": "com.morechili.yuki.library.VivoImpl",
+    "maven":[
+    ],
+    "libs":[
+        "com.google.code.gson:gson:2.9.1"
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "VIVO_BC_APP_ID",
+        "VIVO_BC_APP_KEY",
+        "VIVO_BC_CP_ID",
+        "VIVO_BC_PAY_CALLBACK_URL"
+    ],
+    "manifest":[
+    ],
+    "meta":{
+    }, 
+    "jnilibs":[
+        "jniLibs"
+    ],
+    "configfile":[
+
+    ],
+    "libtype": "SDK",
+    "libname": "VIVO_SDK"
+}

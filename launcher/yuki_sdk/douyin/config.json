@@ -1,0 +1,23 @@
+{
+    "class": "com.morechili.yuki.library.DouYinImpl",
+    "maven":[
+    ],
+    "libs":[
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "YUKI_BC_DOUYIN_APP_KEY"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+        "jniLibs"
+    ],
+    "descrip": [
+        "YUKI_BC_DOUYIN_APP_KEY 应用key："
+    ],
+    "libtype": "SDK",
+    "libname": "抖音_SDK"
+}

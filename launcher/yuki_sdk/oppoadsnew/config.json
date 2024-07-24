@@ -1,0 +1,36 @@
+{
+    "class": "com.morechili.yuki.library.NewOPPOADSImpl",
+    "maven":[
+    ],
+    "libs":[
+        "androidx.appcompat:appcompat:1.0.2",
+        "androidx.legacy:legacy-support-v4:1.0.0",
+        "com.squareup.okio:okio:2.5.0",
+        "org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.72",
+        "android.arch.persistence:db-framework:1.1.1",
+        "androidx.palette:palette:1.0.0",
+        "com.tencent.mm.opensdk:wechat-sdk-android-without-mta:5.5.8",
+        "androidx.recyclerview:recyclerview:1.0.0"
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "BF_OPPO_ADS_APP_ID",
+        "BF_OPPO_ADS_TITLE",
+        "BF_OPPO_ADS_SPLASH_ID",
+        "BF_OPPO_ADS_NATIVE_ID",
+        "BF_OPPO_ADS_INSERT_ID",
+        "BF_OPPO_ADS_VIDEO_ID",
+        "BF_OPPO_ADS_IS_DEPUTY"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "descrip": [
+        "IS_DEPUTY 副广告"
+    ],
+    "libtype": "AD",
+    "libname": "OPPO_广告(NEW)"
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">萌翻天消消乐</string>
+    <string name="game_view_content_description">Game view</string>
+    <string name="protocol_content" translatable="false">欢迎下载本游戏,我们非常重视个人信息和隐私保护.请在使用我们的服务前,详细阅读并同意《用户协议》和《隐私政策》\n为了提供完整的游戏体验,我们会向您申请必要的权限和信息.您可选择同意或拒绝权限申请,如果拒绝可能会导致部分游戏体验异常.权限和信息包括\n\n存储权限: 目的为了实现账号,图片的缓存和使用,图片保存和分享\n
+设备信息: 读取Android-ID,硬件序列号,IMEI,手机号,OAID,Mac地址信息,目的为保护账号安全,和游戏体验分析\n</string>
+    <string name="protocol_title" translatable="false">个人信息指引保护</string>
+</resources>

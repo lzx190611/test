@@ -1,0 +1,33 @@
+{
+    "class": "com.morechili.yuki.library.CSJImpl",
+    "maven":[
+    ],
+    "libs":[
+        "com.android.support:support-v4:28.0.0"
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "YUKI_BC_CSJ_APPID",
+        "YUKI_BC_CSJ_TITLE",
+        "YUKI_BC_CSJ_SPLASH_ID",
+        "YUKI_BC_CSJ_INSERT_ID",
+        "YUKI_BC_CSJ_VIDEO_ID",
+        "YUKI_BC_CSJ_VIDEO_FULL_ID",
+        "YUKI_BC_CSJ_VIDEO_TYPE",
+        "YUKI_BC_CSJ_IS_DEPUTY"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "descrip": [
+        "YUKI_BC_CSJ_VIDEO_TYPE （FULL,VIDEO）判断使用全屏或者激励视频",
+        "YUKI_BC_CSJ_VIDEO_ID 激励视频id",
+        "YUKI_BC_CSJ_VIDEO_FULL_ID 全屏视频ID",
+        "IS_DEPUTY 副广告"
+    ],
+    "libtype": "AD",
+    "libname": "穿山甲_广告"
+}

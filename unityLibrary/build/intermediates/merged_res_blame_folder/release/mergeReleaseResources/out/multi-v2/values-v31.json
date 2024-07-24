@@ -1,0 +1,52 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.sdkmerge.bridge.unityLibrary-release-3:/values-v31/values-v31.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\GM19\\Desktop\\SDK-Android-Demo\\unityLibrary\\src\\main\\res\\values-v31\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "2",
+                        "startOffsets": "55",
+                        "endLines": "8",
+                        "endColumns": "10",
+                        "endOffsets": "620"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "8",
+                        "endColumns": "10",
+                        "endOffsets": "614"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.sdkmerge.bridge.unityLibrary-mergeReleaseResources-1:/values-v31/values-v31.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\GM19\\Desktop\\SDK-Android-Demo\\unityLibrary\\src\\main\\res\\values-v31\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "2",
+                        "startOffsets": "55",
+                        "endLines": "8",
+                        "endColumns": "10",
+                        "endOffsets": "620"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "8",
+                        "endColumns": "10",
+                        "endOffsets": "614"
+                    }
+                }
+            ]
+        }
+    ]
+}

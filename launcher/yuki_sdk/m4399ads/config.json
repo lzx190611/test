@@ -1,0 +1,30 @@
+{
+    "class": "com.morechili.yuki.library.M4399ADSImpl",
+    "maven":[
+    ],
+    "libs":[
+        "com.android.support:appcompat-v7:28.0.0"
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "YUKI_BC_4399ADS_APP_ID",
+        "YUKI_BC_4399ADS_SPLASH_ID",
+        "YUKI_BC_4399ADS_NATIVE_ID",
+        "YUKI_BC_4399ADS_INSERT_ID",
+        "YUKI_BC_4399ADS_VIDEO_ID",
+        "YUKI_BC_4399ADS_IS_DEPUTY"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "descrip": [
+        "YUKI_BC_4399ADS_APP_ID 广告APPID",
+        "IS_DEPUTY 副广告",
+        "com.android.support:appcompat-v7:28.0.0  报错时添加"
+    ],
+    "libtype": "AD",
+    "libname": "4399_广告"
+}

@@ -1,0 +1,897 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.slhd.mftxxl.mi"
+4    android:installLocation="preferExternal"
+5    android:versionCode="40240"
+6    android:versionName="4.2.40" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="26"
+10        android:targetSdkVersion="33" />
+11
+12    <supports-screens
+12-->C:\Users\GM19\Desktop\SDK-Android-Demo\launcher\src\main\AndroidManifest.xml:17:3-23:38
+13        android:anyDensity="true"
+13-->C:\Users\GM19\Desktop\SDK-Android-Demo\launcher\src\main\AndroidManifest.xml:22:7-32
+14        android:largeScreens="true"
+14-->C:\Users\GM19\Desktop\SDK-Android-Demo\launcher\src\main\AndroidManifest.xml:20:7-34
+15        android:normalScreens="true"
+15-->C:\Users\GM19\Desktop\SDK-Android-Demo\launcher\src\main\AndroidManifest.xml:19:7-35
+16        android:resizeable="true"
+16-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:25:9-34
+17        android:smallScreens="true"
+17-->C:\Users\GM19\Desktop\SDK-Android-Demo\launcher\src\main\AndroidManifest.xml:18:7-34
+18        android:xlargeScreens="true" />
+18-->C:\Users\GM19\Desktop\SDK-Android-Demo\launcher\src\main\AndroidManifest.xml:21:7-35
+19
+20    <queries>
+20-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:9:5-19:15
+21        <intent> <!-- H5 支持手淘登录 -->
+21-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:10:9-14:18
+22            <action android:name="*" />
+22-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:11:13-40
+22-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:11:21-37
+23
+24            <data android:scheme="tbopen" />
+24-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:13:13-45
+24-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:13:19-42
+25        </intent>
+26
+27        <package android:name="com.eg.android.AlipayGphone" /> <!-- 支付宝 app -->
+27-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:16:9-63
+27-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:16:18-60
+28        <package android:name="com.eg.android.AlipayGphoneRC" /> <!-- 沙箱支付宝 app -->
+28-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:17:9-65
+28-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:17:18-62
+29        <package android:name="hk.alipay.wallet" /> <!-- 香港版支付宝 app -->
+29-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:18:9-52
+29-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:18:18-49
+30        <!-- 游戏中心 -->
+31        <package android:name="com.xiaomi.gamecenter" /> <!-- 游戏中心 -->
+31-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:19:9-57
+31-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:19:18-54
+32        <package android:name="com.xiaomi.market" /> <!-- 游戏服务 -->
+32-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:21:9-53
+32-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:21:18-50
+33        <package android:name="com.xiaomi.gamecenter.sdk.service" /> <!-- 微信 -->
+33-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:23:9-69
+33-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:23:18-66
+34        <package android:name="com.tencent.mm" /> <!-- QQ -->
+34-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:27:9-50
+34-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:27:18-47
+35        <package android:name="com.tencent.mobileqq" /> <!-- 微博 -->
+35-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:29:9-56
+35-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:29:18-53
+36        <package android:name="com.sina.weibo" />
+36-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:31:9-50
+36-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:31:18-47
+37        <package android:name="com.miui.cloudservice" />
+37-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:32:9-57
+37-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:32:18-54
+38        <package android:name="com.xiaomi.xmsf" />
+38-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:33:9-51
+38-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:33:18-48
+39        <package android:name="com.miui.securitycenter" />
+39-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:34:9-59
+39-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:34:18-56
+40
+41        <intent>
+41-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:14:9-18:18
+42            <action android:name="android.intent.action.MAIN" />
+42-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:15:13-65
+42-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:15:21-62
+43
+44            <category android:name="android.intent.category.LAUNCHER" />
+44-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:17:13-73
+44-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:17:23-70
+45        </intent>
+46        <intent>
+46-->[com.android.billingclient:billing:6.1.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\bf1c9394536d5b5782611ee1877be0bc\transformed\jetified-billing-6.1.0\AndroidManifest.xml:13:9-15:18
+47            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+47-->[com.android.billingclient:billing:6.1.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\bf1c9394536d5b5782611ee1877be0bc\transformed\jetified-billing-6.1.0\AndroidManifest.xml:14:13-91
+47-->[com.android.billingclient:billing:6.1.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\bf1c9394536d5b5782611ee1877be0bc\transformed\jetified-billing-6.1.0\AndroidManifest.xml:14:21-88
+48        </intent>
+49    </queries>
+50
+51    <uses-permission android:name="android.permission.INTERNET" />
+51-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:28:5-67
+51-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:28:22-64
+52    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+52-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:29:5-79
+52-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:29:22-76
+53    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+53-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:30:5-76
+53-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:30:22-73
+54    <uses-permission android:name="com.xiaomi.sdk.permission.PAYMENT" />
+54-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:13:5-73
+54-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:13:22-70
+55    <uses-permission android:name="com.miui.systemAdSolution.adSwitch.PROVIDER" />
+55-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:21:5-83
+55-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:21:22-80
+56    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+56-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:23:5-83
+56-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:23:22-80
+57
+58    <uses-feature android:glEsVersion="0x00030000" />
+58-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:5-54
+58-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:19-51
+59    <uses-feature
+59-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:5-13:36
+60        android:name="android.hardware.touchscreen"
+60-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:9-52
+61        android:required="false" />
+61-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:13:9-33
+62    <uses-feature
+62-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:14:5-16:36
+63        android:name="android.hardware.touchscreen.multitouch"
+63-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:15:9-63
+64        android:required="false" />
+64-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:16:9-33
+65    <uses-feature
+65-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:17:5-19:36
+66        android:name="android.hardware.touchscreen.multitouch.distinct"
+66-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:18:9-72
+67        android:required="false" />
+67-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:19:9-33
+68
+69    <uses-permission android:name="com.android.vending.BILLING" />
+69-->[com.android.billingclient:billing-ktx:6.1.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\b430a091b3b51a8be998aa5ee25d495e\transformed\jetified-billing-ktx-6.1.0\AndroidManifest.xml:9:5-67
+69-->[com.android.billingclient:billing-ktx:6.1.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\b430a091b3b51a8be998aa5ee25d495e\transformed\jetified-billing-ktx-6.1.0\AndroidManifest.xml:9:22-64
+70
+71    <application
+71-->C:\Users\GM19\Desktop\SDK-Android-Demo\launcher\src\main\AndroidManifest.xml:5:3-15:17
+72        android:name="com.morechili.yuki.sdkmerge.DefaultApplication"
+72-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:9:9-70
+73        android:allowBackup="true"
+73-->C:\Users\GM19\Desktop\SDK-Android-Demo\launcher\src\main\AndroidManifest.xml:7:7-33
+74        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+74-->[androidx.core:core:1.5.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\645916317196e22a4bce888b3b81e37c\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+75        android:debuggable="true"
+76        android:enableOnBackInvokedCallback="false"
+76-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:22:9-52
+77        android:extractNativeLibs="true"
+78        android:icon="@mipmap/app_icon"
+78-->C:\Users\GM19\Desktop\SDK-Android-Demo\launcher\src\main\AndroidManifest.xml:5:16-47
+79        android:label="@string/app_name"
+79-->C:\Users\GM19\Desktop\SDK-Android-Demo\launcher\src\main\AndroidManifest.xml:6:7-39
+80        android:networkSecurityConfig="@xml/network_security_config"
+80-->[librarymiads-release.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3068f84de6be7adf71f1289da2efbb47\transformed\jetified-librarymiads-release\AndroidManifest.xml:12:9-69
+81        android:supportsRtl="true"
+81-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:26:9-35
+82        android:usesCleartextTraffic="true" >
+82-->[librarymi-release.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\7e45c369d525d81b98b87d04e848d863\transformed\jetified-librarymi-release\AndroidManifest.xml:7:18-53
+83        <meta-data
+83-->C:\Users\GM19\Desktop\SDK-Android-Demo\launcher\src\xiaomi\AndroidManifest.xml:3:9-5:54
+84            android:name="miGameAppId"
+84-->C:\Users\GM19\Desktop\SDK-Android-Demo\launcher\src\xiaomi\AndroidManifest.xml:4:13-39
+85            android:value="mi_2882303761520192427" />
+85-->C:\Users\GM19\Desktop\SDK-Android-Demo\launcher\src\xiaomi\AndroidManifest.xml:5:13-51
+86        <meta-data
+86-->C:\Users\GM19\Desktop\SDK-Android-Demo\launcher\src\xiaomi\AndroidManifest.xml:6:9-8:48
+87            android:name="miGameAppKey"
+87-->C:\Users\GM19\Desktop\SDK-Android-Demo\launcher\src\xiaomi\AndroidManifest.xml:7:13-40
+88            android:value="mi_5182019235427" />
+88-->C:\Users\GM19\Desktop\SDK-Android-Demo\launcher\src\xiaomi\AndroidManifest.xml:8:13-45
+89        <meta-data
+89-->C:\Users\GM19\Desktop\SDK-Android-Demo\launcher\src\main\AndroidManifest.xml:11:5-14:41
+90            android:name="com.hihonor.iap.sdk.version_code"
+90-->C:\Users\GM19\Desktop\SDK-Android-Demo\launcher\src\main\AndroidManifest.xml:12:9-56
+91            android:value="80002302" />
+91-->C:\Users\GM19\Desktop\SDK-Android-Demo\launcher\src\main\AndroidManifest.xml:13:9-33
+92
+93        <uses-library
+93-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:33:9-35:40
+94            android:name="org.apache.http.legacy"
+94-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:34:13-50
+95            android:required="false" />
+95-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:35:13-37
+96
+97        <activity
+97-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:37:9-42:20
+98            android:name="com.alipay.sdk.app.H5PayActivity"
+98-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:38:13-60
+99            android:configChanges="orientation|keyboardHidden|navigation|screenSize|locale|keyboard|screenLayout|density|fontScale|layoutDirection|smallestScreenSize"
+99-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:39:13-167
+100            android:exported="false"
+100-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:40:13-37
+101            android:theme="@android:style/Theme.NoTitleBar" >
+101-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:41:13-60
+102        </activity>
+103        <activity
+103-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:43:9-48:20
+104            android:name="com.alipay.sdk.app.H5AuthActivity"
+104-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:44:13-61
+105            android:configChanges="orientation|keyboardHidden|navigation|screenSize|locale|keyboard|screenLayout|density|fontScale|layoutDirection|smallestScreenSize"
+105-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:45:13-167
+106            android:exported="false"
+106-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:46:13-37
+107            android:theme="@android:style/Theme.NoTitleBar" >
+107-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:47:13-60
+108        </activity>
+109        <activity
+109-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:49:9-55:20
+110            android:name="com.alipay.sdk.app.PayResultActivity"
+110-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:50:13-64
+111            android:configChanges="orientation|keyboardHidden|navigation|screenSize|locale|keyboard|screenLayout|density|fontScale|layoutDirection|smallestScreenSize"
+111-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:51:13-167
+112            android:exported="true"
+112-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:52:13-36
+113            android:launchMode="singleInstance"
+113-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:53:13-48
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+114-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:54:13-72
+115        </activity>
+116        <activity
+116-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:56:9-62:20
+117            android:name="com.alipay.sdk.app.AlipayResultActivity"
+117-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:57:13-67
+118            android:configChanges="orientation|keyboardHidden|navigation|screenSize|locale|keyboard|screenLayout|density|fontScale|layoutDirection|smallestScreenSize"
+118-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:58:13-167
+119            android:exported="true"
+119-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:59:13-36
+120            android:launchMode="singleTask"
+120-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:60:13-44
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+121-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:61:13-72
+122        </activity>
+123        <activity
+123-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:63:9-69:20
+124            android:name="com.alipay.sdk.app.H5OpenAuthActivity"
+124-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:64:13-65
+125            android:configChanges="orientation|keyboardHidden|navigation|screenSize|locale|keyboard|screenLayout|density|fontScale|layoutDirection|smallestScreenSize"
+125-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:65:13-167
+126            android:exported="false"
+126-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:66:13-37
+127            android:screenOrientation="behind"
+127-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:67:13-47
+128            android:windowSoftInputMode="adjustResize|stateHidden" >
+128-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:68:13-67
+129        </activity>
+130        <activity
+130-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:70:9-75:20
+131            android:name="com.alipay.sdk.app.APayEntranceActivity"
+131-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:71:13-67
+132            android:configChanges="orientation|keyboardHidden|navigation|screenSize|locale|keyboard|screenLayout|density|fontScale|layoutDirection|smallestScreenSize"
+132-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:72:13-167
+133            android:exported="false"
+133-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:73:13-37
+134            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+134-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:74:13-72
+135        </activity> <!-- &lt;!&ndash;        注意前缀mi_必须添加        &ndash;&gt; -->
+136        <!-- <meta-data -->
+137        <!-- android:name="miGameAppId" -->
+138        <!-- android:value="mi_2882xxxxxxxxxx" /> -->
+139        <!-- <meta-data -->
+140        <!-- android:name="miGameAppKey" -->
+141        <!-- android:value="mi_xxxxxxxxx" /> -->
+142        <meta-data
+142-->[librarymi-release.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\7e45c369d525d81b98b87d04e848d863\transformed\jetified-librarymi-release\AndroidManifest.xml:17:9-19:36
+143            android:name="miGameEnhance"
+143-->[librarymi-release.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\7e45c369d525d81b98b87d04e848d863\transformed\jetified-librarymi-release\AndroidManifest.xml:18:13-41
+144            android:value="true" /> <!-- ${applicationId}  替换为游戏包名 -->
+144-->[librarymi-release.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\7e45c369d525d81b98b87d04e848d863\transformed\jetified-librarymi-release\AndroidManifest.xml:19:13-33
+145        <provider
+145-->[librarymi-release.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\7e45c369d525d81b98b87d04e848d863\transformed\jetified-librarymi-release\AndroidManifest.xml:21:9-25:40
+146            android:name="com.xiaomi.gamecenter.sdk.MiOauthProvider"
+146-->[librarymi-release.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\7e45c369d525d81b98b87d04e848d863\transformed\jetified-librarymi-release\AndroidManifest.xml:22:13-69
+147            android:authorities="com.slhd.mftxxl.mi.mi_provider"
+147-->[librarymi-release.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\7e45c369d525d81b98b87d04e848d863\transformed\jetified-librarymi-release\AndroidManifest.xml:23:13-63
+148            android:enabled="true"
+148-->[librarymi-release.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\7e45c369d525d81b98b87d04e848d863\transformed\jetified-librarymi-release\AndroidManifest.xml:24:13-35
+149            android:exported="false" />
+149-->[librarymi-release.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\7e45c369d525d81b98b87d04e848d863\transformed\jetified-librarymi-release\AndroidManifest.xml:25:13-37
+150
+151        <activity
+151-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:38:9-42:86
+152            android:name="com.xiaomi.gamecenter.sdk.ui.MiActivity"
+152-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:39:13-67
+153            android:configChanges="orientation|screenSize"
+153-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:40:13-59
+154            android:screenOrientation="behind"
+154-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:41:13-47
+155            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+155-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:42:13-83
+156        <activity
+156-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:43:9-48:86
+157            android:name="com.xiaomi.gamecenter.sdk.ui.PayListActivity"
+157-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:44:13-72
+158            android:configChanges="orientation|screenSize"
+158-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:45:13-59
+159            android:exported="true"
+159-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:46:13-36
+160            android:screenOrientation="behind"
+160-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:47:13-47
+161            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+161-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:48:13-83
+162        <activity
+162-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:49:9-53:86
+163            android:name="com.xiaomi.gamecenter.sdk.hy.dj.HyDjActivity"
+163-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:50:13-72
+164            android:configChanges="orientation|screenSize"
+164-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:51:13-59
+165            android:exported="true"
+165-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:52:13-36
+166            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+166-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:53:13-83
+167        <activity
+167-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:54:9-59:86
+168            android:name="com.xiaomi.gamecenter.sdk.ui.fault.ViewFaultNoticeActivity"
+168-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:55:13-86
+169            android:configChanges="orientation|screenSize"
+169-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:56:13-59
+170            android:excludeFromRecents="true"
+170-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:57:13-46
+171            android:screenOrientation="behind"
+171-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:58:13-47
+172            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+172-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:59:13-83
+173        <activity
+173-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:60:9-65:86
+174            android:name="com.xiaomi.gamecenter.sdk.ui.notice.NoticeActivity"
+174-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:61:13-78
+175            android:configChanges="orientation|screenSize"
+175-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:62:13-59
+176            android:excludeFromRecents="true"
+176-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:63:13-46
+177            android:screenOrientation="behind"
+177-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:64:13-47
+178            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+178-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:65:13-83
+179        <activity
+179-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:66:9-70:75
+180            android:name="com.xiaomi.gamecenter.sdk.ui.MiPayAntiActivity"
+180-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:67:13-74
+181            android:configChanges="orientation|screenSize"
+181-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:68:13-59
+182            android:screenOrientation="behind"
+182-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:69:13-47
+183            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+183-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:70:13-72
+184        <activity
+184-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:71:9-75:75
+185            android:name="com.xiaomi.gamecenter.sdk.ui.MiVerifyActivity"
+185-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:72:13-73
+186            android:configChanges="orientation|screenSize"
+186-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:73:13-59
+187            android:screenOrientation="behind"
+187-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:74:13-47
+188            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+188-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:75:13-72
+189        <activity
+189-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:76:9-82:86
+190            android:name="com.xiaomi.gamecenter.sdk.ui.ForceInterceptActivity"
+190-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:77:13-79
+191            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
+191-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:78:13-83
+192            android:excludeFromRecents="true"
+192-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:79:13-46
+193            android:exported="false"
+193-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:80:13-37
+194            android:screenOrientation="behind"
+194-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:81:13-47
+195            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+195-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:82:13-83
+196        <activity
+196-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:83:9-87:50
+197            android:name="com.xiaomi.gamecenter.sdk.ui.LoginRiskVerifyActivity"
+197-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:84:13-80
+198            android:configChanges="orientation|screenSize"
+198-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:85:13-59
+199            android:excludeFromRecents="true"
+199-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:86:13-46
+200            android:screenOrientation="behind" />
+200-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:87:13-47
+201        <activity
+201-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:88:9-104:20
+202            android:name="com.xiaomi.gamecenter.sdk.anti.ui.MiAntiAlertActivity"
+202-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:89:13-81
+203            android:configChanges="orientation|screenSize"
+203-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:90:13-59
+204            android:excludeFromRecents="true"
+204-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:91:13-46
+205            android:exported="true"
+205-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:92:13-36
+206            android:screenOrientation="behind"
+206-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:93:13-47
+207            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+207-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:94:13-72
+208            <intent-filter>
+208-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:95:13-103:29
+209                <data
+209-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:13:13-45
+210                    android:host="open_anti_alert"
+211                    android:scheme="mioauthsdk" />
+211-->[alipay-sdk-android-15.8.09.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4e879b66d19ff07a3175605c0b09f477\transformed\jetified-alipay-sdk-android-15.8.09\AndroidManifest.xml:13:19-42
+212
+213                <category android:name="android.intent.category.DEFAULT" />
+213-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:100:17-76
+213-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:100:27-73
+214
+215                <action android:name="android.intent.action.VIEW" />
+215-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:102:17-69
+215-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:102:25-66
+216            </intent-filter>
+217        </activity>
+218
+219        <service
+219-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:106:9-113:19
+220            android:name="com.xiaomi.gamecenter.sdk.MiGameService"
+220-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:107:13-67
+221            android:enabled="true"
+221-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:108:13-35
+222            android:exported="true" >
+222-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:109:13-36
+223            <intent-filter>
+223-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:110:13-112:29
+224                <action android:name="com.xiaomi.gamecenter.jar.service" />
+224-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:111:17-76
+224-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:111:25-73
+225            </intent-filter>
+226        </service> <!-- virtual_cid -->
+227        <meta-data
+227-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:114:9-116:64
+228            android:name="mi_game_cid_option"
+228-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:115:13-46
+229            android:value="49A82B6A7C2039D6C82A186CAA2996BB" /> <!-- 联运SDK，都要走渠道包逻辑 -->
+229-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:116:13-61
+230        <meta-data
+230-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:117:9-119:36
+231            android:name="mi_game_sdk"
+231-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:118:13-39
+232            android:value="true" />
+232-->[mioauth-3.4.3.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3e880c47a1cab2e48a230460d189d370\transformed\jetified-mioauth-3.4.3\AndroidManifest.xml:119:13-33
+233
+234        <provider
+234-->[librarymiads-release.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3068f84de6be7adf71f1289da2efbb47\transformed\jetified-librarymiads-release\AndroidManifest.xml:14:9-22:20
+235            android:name="androidx.core.content.FileProvider"
+235-->[librarymiads-release.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3068f84de6be7adf71f1289da2efbb47\transformed\jetified-librarymiads-release\AndroidManifest.xml:15:13-62
+236            android:authorities="com.slhd.mftxxl.mi.fileprovider"
+236-->[librarymiads-release.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3068f84de6be7adf71f1289da2efbb47\transformed\jetified-librarymiads-release\AndroidManifest.xml:16:13-64
+237            android:exported="false"
+237-->[librarymiads-release.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3068f84de6be7adf71f1289da2efbb47\transformed\jetified-librarymiads-release\AndroidManifest.xml:17:13-37
+238            android:grantUriPermissions="true" >
+238-->[librarymiads-release.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3068f84de6be7adf71f1289da2efbb47\transformed\jetified-librarymiads-release\AndroidManifest.xml:18:13-47
+239            <meta-data
+239-->[librarymiads-release.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3068f84de6be7adf71f1289da2efbb47\transformed\jetified-librarymiads-release\AndroidManifest.xml:19:13-21:59
+240                android:name="android.support.FILE_PROVIDER_PATHS"
+240-->[librarymiads-release.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3068f84de6be7adf71f1289da2efbb47\transformed\jetified-librarymiads-release\AndroidManifest.xml:20:17-67
+241                android:resource="@xml/mimo_file_paths" />
+241-->[librarymiads-release.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3068f84de6be7adf71f1289da2efbb47\transformed\jetified-librarymiads-release\AndroidManifest.xml:21:17-56
+242        </provider>
+243
+244        <meta-data
+244-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:28:9-30:36
+245            android:name="sync_data_to_system_service"
+245-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:29:13-55
+246            android:value="true" />
+246-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:30:13-33
+247
+248        <activity
+248-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:32:9-37:80
+249            android:name="com.miui.zeus.mimo.sdk.ad.reward.RewardVideoAdActivityNew"
+249-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:33:13-85
+250            android:configChanges="mcc|mnc|orientation|keyboardHidden|screenSize"
+250-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:34:13-82
+251            android:exported="false"
+251-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:35:13-37
+252            android:screenOrientation="behind"
+252-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:36:13-47
+253            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+253-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:37:13-77
+254        <activity
+254-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:38:9-43:80
+255            android:name="com.miui.zeus.mimo.sdk.ad.reward.RewardVideoAdActivityNewPE"
+255-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:39:13-87
+256            android:configChanges="mcc|mnc|orientation|keyboardHidden|screenSize"
+256-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:40:13-82
+257            android:exported="false"
+257-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:41:13-37
+258            android:screenOrientation="behind"
+258-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:42:13-47
+259            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+259-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:43:13-77
+260        <activity
+260-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:44:9-48:80
+261            android:name="com.miui.zeus.mimo.sdk.view.WebViewActivity"
+261-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:45:13-71
+262            android:configChanges="mcc|mnc|orientation|keyboardHidden|screenSize"
+262-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:46:13-82
+263            android:exported="false"
+263-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:47:13-37
+264            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+264-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:48:13-77
+265        <activity
+265-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:49:9-51:69
+266            android:name="com.miui.zeus.landingpage.sdk.activity.WebViewActivity"
+266-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:50:13-82
+267            android:theme="@android:style/Theme.Holo.NoActionBar" />
+267-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:51:13-66
+268
+269        <meta-data
+269-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:53:9-55:38
+270            android:name="market_sdk_version"
+270-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:54:13-46
+271            android:value="3.2.26" />
+271-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:55:13-35
+272        <meta-data
+272-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:25:9-27:68
+273            android:name="GameActivity"
+273-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:26:13-40
+274            android:value="com.sdkmerge.bridge.SDKMergeActivity" />
+274-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:27:13-65
+275        <meta-data
+275-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:28:9-30:33
+276            android:name="unity.splash-mode"
+276-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:29:13-45
+277            android:value="0" />
+277-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:30:13-30
+278        <meta-data
+278-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:31:9-33:36
+279            android:name="unity.splash-enable"
+279-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:32:13-47
+280            android:value="True" />
+280-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:33:13-33
+281        <meta-data
+281-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:34:9-36:36
+282            android:name="unity.launch-fullscreen"
+282-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:35:13-51
+283            android:value="True" />
+283-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:36:13-33
+284        <meta-data
+284-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:37:9-39:37
+285            android:name="unity.render-outside-safearea"
+285-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:38:13-57
+286            android:value="False" />
+286-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:39:13-34
+287        <meta-data
+287-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:40:9-42:36
+288            android:name="unity.auto-report-fully-drawn"
+288-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:41:13-57
+289            android:value="true" />
+289-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:42:13-33
+290        <meta-data
+290-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:43:9-45:36
+291            android:name="unity.auto-set-game-state"
+291-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:44:13-53
+292            android:value="true" />
+292-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:45:13-33
+293        <meta-data
+293-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:46:9-48:37
+294            android:name="unity.strip-engine-code"
+294-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:47:13-51
+295            android:value="false" />
+295-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:48:13-34
+296
+297        <activity
+297-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:50:9-67:20
+298            android:name="com.sdkmerge.bridge.SDKMergeActivity"
+298-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:51:13-64
+299            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+299-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:52:13-194
+300            android:exported="true"
+300-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:53:13-36
+301            android:hardwareAccelerated="false"
+301-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:54:13-48
+302            android:launchMode="singleTask"
+302-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:55:13-44
+303            android:resizeableActivity="false"
+303-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:56:13-47
+304            android:screenOrientation="userLandscape"
+304-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:57:13-54
+305            android:theme="@style/UnityThemeSelector" >
+305-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:58:13-54
+306            <intent-filter>
+306-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:59:13-62:29
+307                <category android:name="android.intent.category.LAUNCHER" />
+307-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:17:13-73
+307-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:17:23-70
+308                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+308-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:61:17-86
+308-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:61:27-83
+309            </intent-filter>
+310
+311            <meta-data
+311-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:64:13-66:40
+312                android:name="unityplayer.UnityActivity"
+312-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:65:17-57
+313                android:value="true" />
+313-->[:unityLibrary] C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:66:17-37
+314        </activity>
+315        <activity
+315-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:11:9-26:20
+316            android:name="com.morechili.yuki.activity.InitActivity"
+316-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:12:13-68
+317            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
+317-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:13:13-194
+318            android:exported="true"
+318-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:14:13-36
+319            android:hardwareAccelerated="false"
+319-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:15:13-48
+320            android:label="@string/app_name"
+320-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:16:13-45
+321            android:launchMode="singleTask"
+321-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:17:13-44
+322            android:screenOrientation="sensor"
+322-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:18:13-47
+323            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+323-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:19:13-71
+324            <intent-filter>
+324-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:20:13-25:29
+325
+326                <!-- <action android:name="android.intent.action.MAIN"/> -->
+327                <category android:name="android.intent.category.LAUNCHER" />
+327-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:17:13-73
+327-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:17:23-70
+328                <!-- <category android:name="android.intent.category.LEANBACK_LAUNCHER" /> -->
+329            </intent-filter>
+330        </activity>
+331        <activity
+331-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:27:9-39:20
+332            android:name="com.morechili.yuki.activity.SplashActivity"
+332-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:28:13-70
+333            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
+333-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:29:13-194
+334            android:exported="true"
+334-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:30:13-36
+335            android:hardwareAccelerated="false"
+335-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:31:13-48
+336            android:label="@string/app_name"
+336-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:32:13-45
+337            android:screenOrientation="sensor"
+337-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:33:13-47
+338            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+338-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:34:13-71
+339            <intent-filter>
+339-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:20:13-25:29
+340                <category android:name="android.intent.category.LAUNCHER" />
+340-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:17:13-73
+340-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:17:23-70
+341                <!-- <category android:name="android.intent.category.LEANBACK_LAUNCHER" /> -->
+342            </intent-filter>
+343        </activity>
+344        <activity
+344-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:40:9-52:20
+345            android:name="com.morechili.yuki.activity.LandSplashActivity"
+345-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:41:13-74
+346            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
+346-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:42:13-194
+347            android:exported="true"
+347-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:43:13-36
+348            android:hardwareAccelerated="false"
+348-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:44:13-48
+349            android:label="@string/app_name"
+349-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:45:13-45
+350            android:screenOrientation="sensorLandscape"
+350-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:46:13-56
+351            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+351-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:47:13-71
+352            <intent-filter>
+352-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:20:13-25:29
+353                <category android:name="android.intent.category.LAUNCHER" />
+353-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:17:13-73
+353-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:17:23-70
+354                <!-- <category android:name="android.intent.category.LEANBACK_LAUNCHER" /> -->
+355            </intent-filter>
+356        </activity>
+357        <activity
+357-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:53:9-65:20
+358            android:name="com.morechili.yuki.activity.PorSplashActivity"
+358-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:54:13-73
+359            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
+359-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:55:13-194
+360            android:exported="true"
+360-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:56:13-36
+361            android:hardwareAccelerated="false"
+361-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:57:13-48
+362            android:label="@string/app_name"
+362-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:58:13-45
+363            android:screenOrientation="sensorPortrait"
+363-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:59:13-55
+364            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+364-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:60:13-71
+365            <intent-filter>
+365-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:20:13-25:29
+366                <category android:name="android.intent.category.LAUNCHER" />
+366-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:17:13-73
+366-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:17:23-70
+367                <!-- <category android:name="android.intent.category.LEANBACK_LAUNCHER" /> -->
+368            </intent-filter>
+369        </activity>
+370        <activity
+370-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:66:9-78:20
+371            android:name="com.morechili.yuki.activity.LandJKGGActivity"
+371-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:67:13-72
+372            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
+372-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:68:13-194
+373            android:exported="true"
+373-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:69:13-36
+374            android:hardwareAccelerated="false"
+374-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:70:13-48
+375            android:label="@string/app_name"
+375-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:71:13-45
+376            android:screenOrientation="sensorLandscape"
+376-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:72:13-56
+377            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+377-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:73:13-71
+378            <intent-filter>
+378-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:20:13-25:29
+379                <category android:name="android.intent.category.LAUNCHER" />
+379-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:17:13-73
+379-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:17:23-70
+380                <!-- <category android:name="android.intent.category.LEANBACK_LAUNCHER" /> -->
+381            </intent-filter>
+382        </activity>
+383        <activity
+383-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:79:9-91:20
+384            android:name="com.morechili.yuki.activity.PorJKGGActivity"
+384-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:80:13-71
+385            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
+385-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:81:13-194
+386            android:exported="true"
+386-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:82:13-36
+387            android:hardwareAccelerated="false"
+387-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:83:13-48
+388            android:label="@string/app_name"
+388-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:84:13-45
+389            android:screenOrientation="sensorPortrait"
+389-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:85:13-55
+390            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+390-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:86:13-71
+391            <intent-filter>
+391-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:20:13-25:29
+392                <category android:name="android.intent.category.LAUNCHER" />
+392-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:17:13-73
+392-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:17:23-70
+393                <!-- <category android:name="android.intent.category.LEANBACK_LAUNCHER" /> -->
+394            </intent-filter>
+395        </activity>
+396        <activity
+396-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:92:9-103:20
+397            android:name="com.morechili.yuki.activity.PorPrivacyPolicyActivity"
+397-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:93:13-80
+398            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
+398-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:94:13-194
+399            android:exported="true"
+399-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:95:13-36
+400            android:hardwareAccelerated="false"
+400-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:96:13-48
+401            android:screenOrientation="sensorPortrait"
+401-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:97:13-55
+402            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+402-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:98:13-77
+403            <intent-filter>
+403-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:20:13-25:29
+404                <category android:name="android.intent.category.LAUNCHER" />
+404-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:17:13-73
+404-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:17:23-70
+405                <!-- <category android:name="android.intent.category.LEANBACK_LAUNCHER" /> -->
+406            </intent-filter>
+407        </activity>
+408        <activity
+408-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:104:9-115:20
+409            android:name="com.morechili.yuki.activity.LandPrivacyPolicyActivity"
+409-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:105:13-81
+410            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
+410-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:106:13-194
+411            android:exported="true"
+411-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:107:13-36
+412            android:hardwareAccelerated="false"
+412-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:108:13-48
+413            android:screenOrientation="sensorLandscape"
+413-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:109:13-56
+414            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+414-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:110:13-77
+415            <intent-filter>
+415-->[com.morechili.yuki:mergesdk:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\AndroidManifest.xml:20:13-25:29
+416                <category android:name="android.intent.category.LAUNCHER" />
+416-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:17:13-73
+416-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:17:23-70
+417                <!-- <category android:name="android.intent.category.LEANBACK_LAUNCHER" /> -->
+418            </intent-filter>
+419        </activity> <!-- android:launchMode="standard" -->
+420        <activity
+420-->[com.morechili.yuki:mergesdklan:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\908ff3def7bffbadfbd32fdc1adc7026\transformed\jetified-mergesdklan-6000.0.0\AndroidManifest.xml:11:9-25:20
+421            android:name="com.morechili.yuki.activity.InitActivityLan"
+421-->[com.morechili.yuki:mergesdklan:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\908ff3def7bffbadfbd32fdc1adc7026\transformed\jetified-mergesdklan-6000.0.0\AndroidManifest.xml:12:13-71
+422            android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode"
+422-->[com.morechili.yuki:mergesdklan:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\908ff3def7bffbadfbd32fdc1adc7026\transformed\jetified-mergesdklan-6000.0.0\AndroidManifest.xml:13:13-194
+423            android:exported="true"
+423-->[com.morechili.yuki:mergesdklan:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\908ff3def7bffbadfbd32fdc1adc7026\transformed\jetified-mergesdklan-6000.0.0\AndroidManifest.xml:14:13-36
+424            android:hardwareAccelerated="false"
+424-->[com.morechili.yuki:mergesdklan:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\908ff3def7bffbadfbd32fdc1adc7026\transformed\jetified-mergesdklan-6000.0.0\AndroidManifest.xml:15:13-48
+425            android:label="@string/app_name"
+425-->[com.morechili.yuki:mergesdklan:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\908ff3def7bffbadfbd32fdc1adc7026\transformed\jetified-mergesdklan-6000.0.0\AndroidManifest.xml:16:13-45
+426            android:launchMode="singleTask"
+426-->[com.morechili.yuki:mergesdklan:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\908ff3def7bffbadfbd32fdc1adc7026\transformed\jetified-mergesdklan-6000.0.0\AndroidManifest.xml:17:13-44
+427            android:screenOrientation="sensorLandscape"
+427-->[com.morechili.yuki:mergesdklan:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\908ff3def7bffbadfbd32fdc1adc7026\transformed\jetified-mergesdklan-6000.0.0\AndroidManifest.xml:18:13-56
+428            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+428-->[com.morechili.yuki:mergesdklan:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\908ff3def7bffbadfbd32fdc1adc7026\transformed\jetified-mergesdklan-6000.0.0\AndroidManifest.xml:19:13-71
+429            <intent-filter>
+429-->[com.morechili.yuki:mergesdklan:6000.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\908ff3def7bffbadfbd32fdc1adc7026\transformed\jetified-mergesdklan-6000.0.0\AndroidManifest.xml:20:13-24:29
+430                <action android:name="android.intent.action.MAIN" />
+430-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:15:13-65
+430-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:15:21-62
+431
+432                <category android:name="android.intent.category.LAUNCHER" />
+432-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:17:13-73
+432-->[mimo_sdk.aar] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\2cb9f5ff825a8a09485d5016b91a0221\transformed\jetified-mimo_sdk\AndroidManifest.xml:17:23-70
+433            </intent-filter>
+434        </activity>
+435
+436        <meta-data
+436-->[com.android.billingclient:billing:6.1.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\bf1c9394536d5b5782611ee1877be0bc\transformed\jetified-billing-6.1.0\AndroidManifest.xml:19:9-21:37
+437            android:name="com.google.android.play.billingclient.version"
+437-->[com.android.billingclient:billing:6.1.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\bf1c9394536d5b5782611ee1877be0bc\transformed\jetified-billing-6.1.0\AndroidManifest.xml:20:13-73
+438            android:value="6.1.0" />
+438-->[com.android.billingclient:billing:6.1.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\bf1c9394536d5b5782611ee1877be0bc\transformed\jetified-billing-6.1.0\AndroidManifest.xml:21:13-34
+439
+440        <activity
+440-->[com.android.billingclient:billing:6.1.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\bf1c9394536d5b5782611ee1877be0bc\transformed\jetified-billing-6.1.0\AndroidManifest.xml:23:9-27:75
+441            android:name="com.android.billingclient.api.ProxyBillingActivity"
+441-->[com.android.billingclient:billing:6.1.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\bf1c9394536d5b5782611ee1877be0bc\transformed\jetified-billing-6.1.0\AndroidManifest.xml:24:13-78
+442            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+442-->[com.android.billingclient:billing:6.1.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\bf1c9394536d5b5782611ee1877be0bc\transformed\jetified-billing-6.1.0\AndroidManifest.xml:25:13-96
+443            android:exported="false"
+443-->[com.android.billingclient:billing:6.1.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\bf1c9394536d5b5782611ee1877be0bc\transformed\jetified-billing-6.1.0\AndroidManifest.xml:26:13-37
+444            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+444-->[com.android.billingclient:billing:6.1.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\bf1c9394536d5b5782611ee1877be0bc\transformed\jetified-billing-6.1.0\AndroidManifest.xml:27:13-72
+445        <activity
+445-->[com.google.android.gms:play-services-base:18.0.1] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\051571b1bb238c4433f6267ddaf90464\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+446            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+446-->[com.google.android.gms:play-services-base:18.0.1] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\051571b1bb238c4433f6267ddaf90464\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+447            android:exported="false"
+447-->[com.google.android.gms:play-services-base:18.0.1] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\051571b1bb238c4433f6267ddaf90464\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+448            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+448-->[com.google.android.gms:play-services-base:18.0.1] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\051571b1bb238c4433f6267ddaf90464\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+449
+450        <meta-data
+450-->[com.google.android.gms:play-services-basement:18.0.1] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\e9a3d82cb617435801c5448aa376cd92\transformed\jetified-play-services-basement-18.0.1\AndroidManifest.xml:21:9-23:69
+451            android:name="com.google.android.gms.version"
+451-->[com.google.android.gms:play-services-basement:18.0.1] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\e9a3d82cb617435801c5448aa376cd92\transformed\jetified-play-services-basement-18.0.1\AndroidManifest.xml:22:13-58
+452            android:value="@integer/google_play_services_version" />
+452-->[com.google.android.gms:play-services-basement:18.0.1] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\e9a3d82cb617435801c5448aa376cd92\transformed\jetified-play-services-basement-18.0.1\AndroidManifest.xml:23:13-66
+453
+454        <provider
+454-->[androidx.lifecycle:lifecycle-process:2.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3015d53f506b2f629ae553fa3390333c\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+455            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+455-->[androidx.lifecycle:lifecycle-process:2.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3015d53f506b2f629ae553fa3390333c\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+456            android:authorities="com.slhd.mftxxl.mi.lifecycle-process"
+456-->[androidx.lifecycle:lifecycle-process:2.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3015d53f506b2f629ae553fa3390333c\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+457            android:exported="false"
+457-->[androidx.lifecycle:lifecycle-process:2.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3015d53f506b2f629ae553fa3390333c\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+458            android:multiprocess="true" />
+458-->[androidx.lifecycle:lifecycle-process:2.0.0] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\3015d53f506b2f629ae553fa3390333c\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+459
+460        <service
+460-->[com.google.android.datatransport:transport-backend-cct:3.1.8] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\d1bf98f19ce694e2a1cd5b6daa6cef8e\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+461            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+461-->[com.google.android.datatransport:transport-backend-cct:3.1.8] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\d1bf98f19ce694e2a1cd5b6daa6cef8e\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+462            android:exported="false" >
+462-->[com.google.android.datatransport:transport-backend-cct:3.1.8] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\d1bf98f19ce694e2a1cd5b6daa6cef8e\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+463            <meta-data
+463-->[com.google.android.datatransport:transport-backend-cct:3.1.8] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\d1bf98f19ce694e2a1cd5b6daa6cef8e\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+464                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+464-->[com.google.android.datatransport:transport-backend-cct:3.1.8] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\d1bf98f19ce694e2a1cd5b6daa6cef8e\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+465                android:value="cct" />
+465-->[com.google.android.datatransport:transport-backend-cct:3.1.8] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\d1bf98f19ce694e2a1cd5b6daa6cef8e\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+466        </service>
+467        <service
+467-->[com.google.android.datatransport:transport-runtime:3.1.8] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4b017afcf24d5707c4f34164a2ebd0e3\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+468            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+468-->[com.google.android.datatransport:transport-runtime:3.1.8] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4b017afcf24d5707c4f34164a2ebd0e3\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+469            android:exported="false"
+469-->[com.google.android.datatransport:transport-runtime:3.1.8] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4b017afcf24d5707c4f34164a2ebd0e3\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+470            android:permission="android.permission.BIND_JOB_SERVICE" >
+470-->[com.google.android.datatransport:transport-runtime:3.1.8] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4b017afcf24d5707c4f34164a2ebd0e3\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+471        </service>
+472
+473        <receiver
+473-->[com.google.android.datatransport:transport-runtime:3.1.8] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4b017afcf24d5707c4f34164a2ebd0e3\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+474            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+474-->[com.google.android.datatransport:transport-runtime:3.1.8] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4b017afcf24d5707c4f34164a2ebd0e3\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+475            android:exported="false" />
+475-->[com.google.android.datatransport:transport-runtime:3.1.8] D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\4b017afcf24d5707c4f34164a2ebd0e3\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+476    </application>
+477
+478</manifest>

@@ -1,0 +1,31 @@
+{
+    "class": "com.morechili.yuki.library.TapImpl",
+    "maven":[
+    ],
+    "libs":[
+        "com.squareup.okhttp3:okhttp:4.10.0",
+        "com.alibaba:fastjson:2.0.34",
+        "androidx.core:core:1.6.0",
+        "com.google.android.flexbox:flexbox:3.0.0"
+    ],
+    "apiLibs":[
+        "com.tencent.mm.opensdk:wechat-sdk-android:+"
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "YUKI_BC_TAP_CLIENT_ID",
+        "YUKI_BC_TAP_SERVER_URL",
+        "YUKI_BC_TAP_WX_APP_ID",
+        "YUKI_BC_TAP_WX_PARTNER_ID"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "descrip": [
+    ],
+    "libtype": "SDK",
+    "libname": "Tap_SDK"
+}

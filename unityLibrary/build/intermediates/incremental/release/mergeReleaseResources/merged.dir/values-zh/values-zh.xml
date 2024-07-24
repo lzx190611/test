@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SDKMerge</string>
+    <string name="cancel_merge">取消</string>
+    <string name="merge_exit_cancel">取消</string>
+    <string name="merge_exit_msg">是否退出游戏?</string>
+    <string name="merge_exit_ok">确定</string>
+    <string name="merge_exit_title">退出</string>
+    <string name="notip_merge">不再提示</string>
+    <string name="ok_merge">确定</string>
+    <string name="protocol_cancel_merge">不同意</string>
+    <string name="protocol_content">隐私策略內容</string>
+    <string name="protocol_ok_merge">同意</string>
+    <string name="protocol_second_cancel">不同意并退出</string>
+    <string name="protocol_second_content">我们将严格按照《隐私协议》向您提供服务并保护您的个人信息，\n若您仍不同意，将影响您继续使用%s</string>
+    <string name="protocol_second_title">隐私协议</string>
+    <string name="protocol_span_list">《隐私协议》</string>
+    <string name="protocol_title">隐私策略</string>
+</resources>

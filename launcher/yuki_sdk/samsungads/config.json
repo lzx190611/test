@@ -1,0 +1,33 @@
+{
+    "class": "com.morechili.yuki.library.SamsungAdsImpl",
+    "maven":[
+    ],
+    "libs":[
+        "com.android.support:appcompat-v7:26.1.0"
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "BC_SAMSUNGADS_TESTMODE",
+        "BC_SAMSUNGADS_PUBLISHER_ID",
+        "BC_SAMSUNGADS_MEDIA_NAME",
+        "BC_SAMSUNGADS_TOKEN",
+        "BC_SAMSUNGADS_VIDEO_SLOT_ID",
+        "BC_SAMSUNGADS_INSERT_SLOT_ID",
+        "BC_SAMSUNGADS_SPLASH_SLOT_ID",
+        "BF_SAMSUNGADS_IS_DEPUTY"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "descrip": [
+        "BC_SAMSUNGADS_PUBLISHER_ID = 媒体id",
+        "BC_SAMSUNGADS_MEDIA_NAME = 媒体名称",
+        "IS_DEPUTY 副广告"
+
+    ],
+    "libtype": "AD",
+    "libname": "三星_广告"
+}

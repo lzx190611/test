@@ -1,0 +1,34 @@
+{
+    "class": "com.morechili.yuki.library.VungleImpl",
+    "plugin": [
+    ],
+    "maven":[
+    ],
+    "libs":[
+        "com.vungle:publisher-sdk-android:6.8.1",
+        "androidx.core:core:1.3.2",
+        "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0",
+        "com.google.android.gms:play-services-basement:17.4.0",
+        "com.google.android.gms:play-services-ads-identifier:17.0.0"
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "BC_VUNGLE_APP_ID",
+        "BC_VUNGLE_BANNER_ID",
+        "BC_VUNGLE_INSERT_ID",
+        "BC_VUNGLE_INSERT_FULL_ID",
+        "BC_VUNGLE_REWARD_ID",
+        "BC_VUNGLE_BANNER_POS_DATA",
+        "BC_VUNGLE_IS_DEPUTY"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "descrip": [
+    ],
+    "libtype": "AD",
+    "libname": "Vungle_广告"
+}

@@ -1,0 +1,23 @@
+{
+    "class": "com.morechili.yuki.library.SamsungImpl",
+    "maven":[
+    ],
+    "libs":[
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "YUKI_BC_SAMSUNG_TEST_MODE"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+        "jniLibs"
+    ],
+    "descrip": [
+        "TEST_MODE 测试模式 -> 1:失败 其他:成功"
+    ],
+    "libtype": "SDK",
+    "libname": "三星_海外SDK"
+}

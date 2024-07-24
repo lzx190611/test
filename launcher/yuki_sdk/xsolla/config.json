@@ -1,0 +1,27 @@
+{
+    "class": "com.morechili.yuki.library.XsollaImpl",
+    "maven":[
+    ],
+    "libs":[
+        "com.xsolla.android:payments:1.3.2",
+        "com.xsolla.android:store:2.5.4",
+        "com.squareup.okhttp3:okhttp:4.10.0"
+    ],
+    "apiLibs":[
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "XSOLLA_BC_PROJECT_ID",
+        "XSOLLA_BC_PAYMENT_TOKEN_URL"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "descrip": [
+    ],
+    "libtype": "SDK",
+    "libname": "Xsolla_SDK"
+}

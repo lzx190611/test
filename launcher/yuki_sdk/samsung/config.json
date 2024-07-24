@@ -1,0 +1,26 @@
+{
+    "class": "com.morechili.yuki.library.SamsungImpl",
+    "maven":[
+    ],
+    "libs":[
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "YUKI_BC_SAMSUNG_APP_ID",
+        "YUKI_BC_SAMSUNG_APP_VKEY",
+        "YUKI_BC_SAMSUNG_PLATP_KEY"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+        "jniLibs"
+    ],
+    "descrip": [
+        "YUKI_BC_SAMSUNG_APP_VKEY 应用私钥：",
+        "YUKI_BC_SAMSUNG_PLATP_KEY 平台公钥："
+    ],
+    "libtype": "SDK",
+    "libname": "三星_SDK"
+}

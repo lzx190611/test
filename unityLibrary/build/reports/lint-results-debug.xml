@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 8.3.0">
+
+    <issue
+        id="MissingTvBanner"
+        severity="Error"
+        message="Expecting `android:banner` with the `&lt;application>` tag or each Leanback launcher activity"
+        category="Correctness"
+        priority="7"
+        summary="TV Missing Banner"
+        explanation="A TV application must provide a home screen banner for each localization if it includes a Leanback launcher intent filter. The banner is the app launch point that appears on the home screen in the apps and games rows."
+        url="https://developer.android.com/training/tv/start/start.html#banner"
+        urls="https://developer.android.com/training/tv/start/start.html#banner"
+        errorLine1="  &lt;application android:enableOnBackInvokedCallback=&quot;false&quot; android:extractNativeLibs=&quot;true&quot; android:usesCleartextTraffic=&quot;true&quot;>"
+        errorLine2="   ~~~~~~~~~~~">
+        <location
+            file="C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\src\main\AndroidManifest.xml"
+            line="8"
+            column="4"/>
+    </issue>
+
+    <issue
+        id="MissingLeanbackSupport"
+        severity="Error"
+        message="Expecting `&lt;uses-feature android:name=&quot;android.software.leanback&quot; android:required=&quot;false&quot; />` tag"
+        category="Correctness"
+        priority="6"
+        summary="Missing Leanback Support"
+        explanation="The manifest should declare the use of the Leanback user interface required by Android TV.&#xA;&#xA;To fix this, add&#xA;```xml&#xA;`&lt;uses-feature android:name=&quot;android.software.leanback&quot;&#xA;               android:required=&quot;false&quot; />`&#xA;```&#xA;to your manifest."
+        url="https://developer.android.com/training/tv/start/start.html#leanback-req"
+        urls="https://developer.android.com/training/tv/start/start.html#leanback-req"
+        errorLine1="&lt;manifest xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot; xmlns:tools=&quot;http://schemas.android.com/tools&quot;>"
+        errorLine2=" ~~~~~~~~">
+        <location
+            file="C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\src\main\AndroidManifest.xml"
+            line="2"
+            column="2"/>
+    </issue>
+
+    <issue
+        id="UnusedAttribute"
+        severity="Warning"
+        message="Attribute `enableOnBackInvokedCallback` is only used in API level 33 and higher (current min is 25)"
+        category="Correctness"
+        priority="6"
+        summary="Attribute unused on older versions"
+        explanation="This check finds attributes set in XML files that were introduced in a version newer than the oldest version targeted by your application (with the `minSdkVersion` attribute).&#xA;&#xA;This is not an error; the application will simply ignore the attribute. However, if the attribute is important to the appearance or functionality of your application, you should consider finding an alternative way to achieve the same result with only available attributes, and then you can optionally create a copy of the layout in a layout-vNN folder which will be used on API NN or higher where you can take advantage of the newer attribute.&#xA;&#xA;Note: This check does not only apply to attributes. For example, some tags can be unused too, such as the new `&lt;tag>` element in layouts introduced in API 21."
+        errorLine1="  &lt;application android:enableOnBackInvokedCallback=&quot;false&quot; android:extractNativeLibs=&quot;true&quot; android:usesCleartextTraffic=&quot;true&quot;>"
+        errorLine2="               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\src\main\AndroidManifest.xml"
+            line="8"
+            column="16"/>
+    </issue>
+
+    <issue
+        id="SwitchIntDef"
+        severity="Warning"
+        message="Switch statement on an `int` with known associated constant missing case `ComponentCallbacks2.TRIM_MEMORY_BACKGROUND`, `ComponentCallbacks2.TRIM_MEMORY_COMPLETE`, `ComponentCallbacks2.TRIM_MEMORY_MODERATE`, `ComponentCallbacks2.TRIM_MEMORY_UI_HIDDEN`"
+        category="Correctness"
+        priority="3"
+        summary="Missing @IntDef in Switch"
+        explanation="This check warns if a `switch` statement does not explicitly include all the values declared by the typedef `@IntDef` declaration."
+        errorLine1="        switch (level)"
+        errorLine2="        ~~~~~~">
+        <location
+            file="C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\src\main\java\com\unity3d\player\UnityPlayerActivity.java"
+            line="119"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="DiscouragedApi"
+        severity="Warning"
+        message="Activity should not be non-resizable. With this setting, apps cannot be used in multi-window or free form mode."
+        category="Correctness"
+        priority="2"
+        summary="Using discouraged APIs"
+        explanation="Discouraged APIs are allowed and are not deprecated, but they may be unfit for common use (e.g. due to slow performance or subtle behavior)."
+        errorLine1="    &lt;activity android:configChanges=&quot;mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density&quot; android:exported=&quot;true&quot; android:hardwareAccelerated=&quot;false&quot; android:launchMode=&quot;singleTask&quot; android:name=&quot;com.sdkmerge.bridge.SDKMergeActivity&quot; android:resizeableActivity=&quot;false&quot; android:screenOrientation=&quot;userLandscape&quot; android:theme=&quot;@style/UnityThemeSelector&quot;>"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\src\main\AndroidManifest.xml"
+            line="17"
+            column="341"/>
+    </issue>
+
+    <issue
+        id="DiscouragedApi"
+        severity="Warning"
+        message="Should not restrict activity to fixed orientation. This may not be suitable for different form factors, causing the app to be letterboxed."
+        category="Correctness"
+        priority="2"
+        summary="Using discouraged APIs"
+        explanation="Discouraged APIs are allowed and are not deprecated, but they may be unfit for common use (e.g. due to slow performance or subtle behavior)."
+        errorLine1="    &lt;activity android:configChanges=&quot;mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density&quot; android:exported=&quot;true&quot; android:hardwareAccelerated=&quot;false&quot; android:launchMode=&quot;singleTask&quot; android:name=&quot;com.sdkmerge.bridge.SDKMergeActivity&quot; android:resizeableActivity=&quot;false&quot; android:screenOrientation=&quot;userLandscape&quot; android:theme=&quot;@style/UnityThemeSelector&quot;>"
+        errorLine2="                                                                                                                                                                                                                                                                                                                                                                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\src\main\AndroidManifest.xml"
+            line="17"
+            column="376"/>
+    </issue>
+
+    <issue
+        id="ChromeOsAbiSupport"
+        severity="Warning"
+        message="Missing x86_64 ABI support for ChromeOS"
+        category="Correctness:Chrome OS"
+        priority="4"
+        summary="Missing ABI Support for ChromeOS"
+        explanation="To properly support ChromeOS, your Android application should have an x86 and/or x86_64 binary as part of the build configuration. To fix the issue, ensure your files are properly optimized for ARM; the binary translator will then ensure compatibility with x86. Alternatively, add an `abiSplit` for x86 within your `build.gradle` file and create the required x86 dependencies."
+        url="https://developer.android.com/ndk/guides/abis"
+        urls="https://developer.android.com/ndk/guides/abis"
+        errorLine1="            abiFilters &apos;armeabi-v7a&apos;"
+        errorLine2="                       ~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build.gradle"
+            line="33"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        severity="Warning"
+        message="Unnecessary; SDK_INT is always >= 23"
+        category="Performance"
+        priority="6"
+        summary="Obsolete SDK_INT Version Check"
+        explanation="This check flags version checks that are not necessary, because the `minSdkVersion` (or surrounding known API level) is already at least as high as the version checked for.&#xA;&#xA;Similarly, it also looks for resources in `-vNN` folders, such as `values-v14` where the version qualifier is less than or equal to the `minSdkVersion`, where the contents should be merged into the best folder."
+        errorLine1="    @TargetApi(Build.VERSION_CODES.M)"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\src\main\java\com\unity3d\player\UnityPlayerActivity.java"
+            line="157"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        severity="Warning"
+        message="This folder configuration (`v21`) is unnecessary; `minSdkVersion` is 25. Merge all the resources in this folder into `values`."
+        category="Performance"
+        priority="6"
+        summary="Obsolete SDK_INT Version Check"
+        explanation="This check flags version checks that are not necessary, because the `minSdkVersion` (or surrounding known API level) is already at least as high as the version checked for.&#xA;&#xA;Similarly, it also looks for resources in `-vNN` folders, such as `values-v14` where the version qualifier is less than or equal to the `minSdkVersion`, where the contents should be merged into the best folder.">
+        <location
+            file="C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\src\main\res\values-v21"/>
+    </issue>
+
+</issues>

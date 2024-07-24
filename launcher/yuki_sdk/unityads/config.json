@@ -1,0 +1,31 @@
+{
+    "class": "com.morechili.yuki.library.UnityADSImpl",
+    "plugin": [
+
+    ],
+    "maven":[
+    ],
+    "libs":[
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "BC_UNITYADS_GAMEID",
+        "BC_UNITYADS_BANNER_ID",
+        "BC_UNITYADS_BANNER_POS_DATA",
+        "BC_UNITYADS_INSERT_FULL_ID",
+        "BC_UNITYADS_REWARD_ID",
+        "BC_UNITYADS_IS_DEPUTY"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "descrip": [
+        "IS_DEPUTY 副广告"
+
+    ],
+    "libtype": "AD",
+    "libname": "Unity_广告"
+}

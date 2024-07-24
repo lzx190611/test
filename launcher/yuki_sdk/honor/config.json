@@ -1,0 +1,31 @@
+{
+    "class": "com.morechili.yuki.library.HonorImpl",
+    "plugin": [
+        "com.hihonor.mcs.asplugin"
+    ],
+    "maven":[
+        "https://developer.honor.com/repo",
+        "https://developer.hihonor.com/repo"
+    ],
+    "libs":[
+        "com.hihonor.mcs:push:7.0.61.303"
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "YUKI_BC_HONOR_APP_ID",
+        "YUKI_BC_HONOR_CP_ID",
+        "YUKI_BC_HONOR_PUSH_USER_TOKEN_URL"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "descrip": [
+        "YUKI_BC_HONOR_SET_PUSH_TOKEN_URL 设置用户推送token地址",
+        "使用PUSH服务需要将mcs-services.json文件放到工程根目录"
+    ],
+    "libtype": "SDK",
+    "libname": "荣耀_SDK"
+}

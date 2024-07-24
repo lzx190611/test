@@ -1,0 +1,16 @@
+com.sdkmerge.bridge.unityLibrary-pngs-0 C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\generated\res\pngs\release
+com.sdkmerge.bridge.unityLibrary-resValues-1 C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\generated\res\resValues\release
+com.sdkmerge.bridge.unityLibrary-mergeReleaseResources-2 C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.sdkmerge.bridge.unityLibrary-mergeReleaseResources-3 C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.sdkmerge.bridge.unityLibrary-release-4 C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\build\intermediates\merged_res\release\mergeReleaseResources
+com.sdkmerge.bridge.unityLibrary-release-5 C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\sdkmerge_combine.androidlib\build\intermediates\packaged_res\release\packageReleaseResources
+com.sdkmerge.bridge.unityLibrary-main-6 C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\src\main\res
+com.sdkmerge.bridge.unityLibrary-release-7 C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary\src\release\res
+com.sdkmerge.bridge.unityLibrary-appcompat-1.3.1-8 D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\1fbbaf712ef7fd07c8f5595861790d88\transformed\appcompat-1.3.1\res
+com.sdkmerge.bridge.unityLibrary-lifecycle-runtime-2.3.1-9 D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\214052482c4890d89dc530e9b31872e9\transformed\lifecycle-runtime-2.3.1\res
+com.sdkmerge.bridge.unityLibrary-jetified-mergesdk-6000.0.0-10 D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\27155e69a95c51f5b2c8fab20523bd64\transformed\jetified-mergesdk-6000.0.0\res
+com.sdkmerge.bridge.unityLibrary-lifecycle-viewmodel-2.3.1-11 D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\502658480449186279cbbc5d3f16b558\transformed\lifecycle-viewmodel-2.3.1\res
+com.sdkmerge.bridge.unityLibrary-jetified-appcompat-resources-1.3.1-12 D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\53d753f7d6627fb0a6af7232b1789c89\transformed\jetified-appcompat-resources-1.3.1\res
+com.sdkmerge.bridge.unityLibrary-core-1.5.0-13 D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\645916317196e22a4bce888b3b81e37c\transformed\core-1.5.0\res
+com.sdkmerge.bridge.unityLibrary-fragment-1.3.6-14 D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\7d6ca0cd83c7fe0cd4de81df41f065e1\transformed\fragment-1.3.6\res
+com.sdkmerge.bridge.unityLibrary-jetified-savedstate-1.1.0-15 D:\Gradle\gradle-8.4-bin\gradle-8.4\caches\transforms-3\960c7529cdbbe7b8f34fd51f2dd14239\transformed\jetified-savedstate-1.1.0\res

@@ -1,0 +1,28 @@
+{
+    "class": "com.morechili.yuki.library.HonorAdsImpl",
+    "maven":[
+        "https://developer.huawei.com/repo/",
+        "https://developer.hihonor.com/repo"
+    ],
+    "libs":[
+        "com.hihonor.mcs:ads-lite:1.0.18.300",
+        "com.tencent.mm.opensdk:wechat-sdk-android:+"
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "HONOR_ADS_BC_APP_ID",
+        "HONOR_ADS_BC_APP_KEY",
+        "HONOR_ADS_BC_WX_APP_ID",
+        "HONOR_ADS_BC_REWARD_ID"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "descrip": [
+    ],
+    "libtype": "AD",
+    "libname": "荣耀_广告"
+}

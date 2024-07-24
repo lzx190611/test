@@ -1,0 +1,21 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.morechili.mergeelf.honor",
+  "variantName": "honor_abroadDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 40240,
+      "versionName": "4.2.40",
+      "outputFile": "launcher-honor_abroad-debug.apk"
+    }
+  ],
+  "elementType": "File",
+  "minSdkVersionForDexing": 25
+}

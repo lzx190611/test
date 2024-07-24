@@ -1,0 +1,23 @@
+{
+    "class": "com.morechili.yuki.library.DouYinAdsImpl",
+    "maven":[
+    ],
+    "libs":[
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "YUKI_BC_DOUYINADS_APP_ID",
+        "YUKI_BC_DOUYINADS_IS_DEPUTY"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "descrip": [
+        "YUKI_BC_DOUYINADS_APP_ID 应用key："
+    ],
+    "libtype": "AD",
+    "libname": "抖音_广告"
+}

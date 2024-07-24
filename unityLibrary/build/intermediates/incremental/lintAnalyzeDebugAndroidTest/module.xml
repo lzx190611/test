@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="C:\Users\GM19\Desktop\SDK-Android-Demo\unityLibrary"
+    name=":unityLibrary"
+    type="LIBRARY"
+    maven="SDK-Android-Demo:unityLibrary:"
+    agpVersion="8.3.0"
+    buildFolder="build"
+    bootClassPath="D:\SDK\platforms\android-35\android.jar;D:\SDK\build-tools\35.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-35"
+    neverShrinking="true">
+  <lintOptions
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="debug"/>
+</lint-module>

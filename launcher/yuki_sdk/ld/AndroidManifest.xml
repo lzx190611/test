@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <!--配置游戏渠道信息-->
+        <meta-data android:name="GAME_ID" android:value="10000"/>
+        <meta-data android:name="CHANNEL_ID" android:value="10001"/>
+        <meta-data android:name="SUN_CHANNEL_ID" android:value="10002"/>
+        <!--注意：GAME_ID 如果和游戏有冲突，可改为LD_GAME_ID-->
+        <!--配置显示悬浮窗注销账号功能-->
+        <meta-data android:name="SHOW_CANCEL_ACCOUNT" android:value="true"/>
+    </application>
+</manifest>

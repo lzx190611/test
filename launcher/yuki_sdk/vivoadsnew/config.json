@@ -1,0 +1,29 @@
+{
+    "class": "com.morechili.yuki.library.NewVIVOADSImpl",
+    "maven":[
+    ],
+    "libs":[
+        "com.android.support:support-v4:28.0.0",
+        "com.android.support:recyclerview-v7:28.0.0",
+        "com.android.support:appcompat-v7:28.0.0",
+        "com.squareup.picasso:picasso:2.5.2"
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "VIVOADSNEW_BC_APP_MEDIA_ID",
+        "VIVOADSNEW_BC_WX_APP_ID",
+        "VIVOADSNEW_BC_SPLASH_ID",
+        "VIVOADSNEW_BC_NATIVE_ID",
+        "VIVOADSNEW_BC_INSERT_ID",
+        "VIVOADSNEW_BC_VIDEO_ID",
+        "VIVOADSNEW_BC_IS_DEPUTY"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "libtype": "AD",
+    "libname": "VIVO_广告(NEW)"
+}

@@ -1,0 +1,33 @@
+{
+    "class": "com.morechili.yuki.library.M4399Impl",
+    "maven":[
+    ],
+    "libs":[
+        "com.android.volley:volley:1.2.1",
+        "com.android.support:support-v4:28.0.0"
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "YUKI_BC_4399_APPKEY",
+        "YUKI_BC_4399_PORTRAIT",
+        "YUKI_BC_4399_IS_DEBUG"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+        "jniLibs"
+    ],
+    "descrip": [
+        "YUKI_BC_4399_APPKEY 应用key：",
+        "YUKI_BC_4399_PORTRAIT 是否竖屏",
+        "SET_DELIVER_GOODS_LISTENER 注册客户端充值回调，",
+        "单机游戏需要充值功能时，首先要确认是使用服务端回调模式,还是客户端模式。",
+        "若是前者，只要在注册游戏时完成充值配置即可；",
+        "若游戏没有自己的服务器，而不得不使用客户端回调，首先要注册回调对象。",
+        "https://open.4399.cn/console/doc#/mobilegame/single/client"
+    ],
+    "libtype": "SDK",
+    "libname": "4399_SDK"
+}

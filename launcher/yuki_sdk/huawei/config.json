@@ -1,0 +1,31 @@
+{
+    "class": "com.morechili.yuki.library.HWImpl",
+    "plugin": [
+        "com.huawei.agconnect"
+    ],
+    "maven":[
+        "https://developer.huawei.com/repo/"
+    ],
+    "libs":[
+        "com.huawei.hms:base:6.12.0.300",
+        "com.huawei.hms:hwid:6.12.0.300",
+        "com.huawei.hms:iap:6.13.0.300",
+        "com.huawei.hms:game:6.10.0.300"
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "scripts": [
+        "checkJson.groovy"
+    ],
+    "descrip": [
+    ],
+    "libtype": "SDK",
+    "libname": "华为_SDK"
+}

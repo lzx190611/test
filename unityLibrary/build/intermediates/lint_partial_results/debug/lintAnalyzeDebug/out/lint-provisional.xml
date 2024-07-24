@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.3.0" type="conditional_incidents">
+
+    <incident
+        id="UnusedAttribute"
+        severity="warning"
+        message="">
+        <fix-data minSdk="ffffffffff000000" requiresApi="ffffffff00000000"/>
+        <location
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="8"
+            column="16"
+            startOffset="590"
+            endLine="8"
+            endColumn="59"
+            endOffset="633"/>
+        <map>
+            <api-levels id="minSdk"
+                value="ffffffffff000000"/>
+            <api-levels id="requiresApi"
+                value="ffffffff00000000"/>
+            <entry
+                name="message"
+                string="Attribute `enableOnBackInvokedCallback` is only used in API level 33 and higher (current min is %1$s)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NonResizeableActivity"
+        severity="warning"
+        message="Expecting `android:resizeableActivity=&quot;true&quot;` for this activity so the user can take advantage of the multi-window environment on all devices. NOTE: beginning with Android 12, all apps run in multi-window mode on large screen devices.">
+        <fix-attribute
+            description="Set resizeableActivity=&quot;true&quot;"
+            robot="true"
+            independent="true"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="resizeableActivity"
+            value="true"/>
+        <location
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="17"
+            column="341"
+            startOffset="1701"
+            endLine="17"
+            endColumn="375"
+            endOffset="1735"/>
+        <map>
+            <condition library="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 23">
+        <fix-replace
+            description="Delete @TargetApi"
+            replacement="">
+            <range
+                file="${:unityLibrary*debug*MAIN*sourceProvider*0*javaDir*0}/com/unity3d/player/UnityPlayerActivity.java"
+                startOffset="5345"
+                endOffset="5378"/>
+        </fix-replace>
+        <location
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*javaDir*0}/com/unity3d/player/UnityPlayerActivity.java"
+            line="157"
+            column="5"
+            startOffset="5345"
+            endLine="157"
+            endColumn="38"
+            endOffset="5378"/>
+        <map>
+            <condition minGE="ffffffffffc00000"/>
+        </map>
+    </incident>
+
+</incidents>

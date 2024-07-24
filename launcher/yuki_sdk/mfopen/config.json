@@ -1,0 +1,33 @@
+{
+    "class": "com.morechili.yuki.library.mfopen.MFController",
+    "maven":[
+    ],
+    "libs":[
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "YUKI_BC_MFOPEN_APPID",
+        "YUKI_BC_MFOPEN_CHANNEL",
+        "YUKI_BC_MFOPEN_BLACKVALUE",
+        "YUKI_BC_MFOPEN_TEST_ABROAD",
+        "YUKI_BC_MFOPEN_WHITE_NO_ADS",
+        "YUKI_BC_MFOPEN_TYPE",
+        "YUKI_BC_MFOPEN_BLACK_VIDEO"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "descrip":[
+        "APPID 摩丰ID CHANNEL 摩丰渠道",
+        "BLACKVALUE 空，0，1 黑包的值，用于测试黑白包 默认为1",
+        "YUKI_BC_MFOPEN_TEST_ABROAD 填写为测试海外模式",
+        "YUKI_BC_MFOPEN_WHITE_NO_ADS 空，0，1 设定白包不展示广告",
+        "YUKI_BC_MFOPEN_TYPE 不填为0 默认逻辑",
+        "   1:adsname1:adsname2 逻辑1， 先执行广告1，上限了执行广告2  eg-> 1:oppoadsold:csjads"
+    ],
+    "libtype": "Switch",
+    "libname": "MFOpen_开关"
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"转到首页"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"转到上一层级"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"更多选项"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"完成"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"选择应用"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"关闭"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"开启"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete 键"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter 键"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"空格键"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"搜索…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"清除查询"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"搜索查询"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"搜索"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"提交查询"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"语音搜索"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"分享对象"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"与<ns1:g id="APPLICATION_NAME">%s</ns1:g>分享"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"收起"</string>
+    <string name="action_settings">设置</string>
+    <string name="ad_click">广告被点击</string>
+    <string name="ad_click_replay">点击重播</string>
+    <string name="ad_close">广告关闭</string>
+    <string name="ad_creative_click">Creative 被点击</string>
+    <string name="ad_dismiss">广告消失</string>
+    <string name="ad_down_load_failed">下载失败</string>
+    <string name="ad_down_load_idle">下载</string>
+    <string name="ad_down_load_install">安装</string>
+    <string name="ad_down_load_installed">打开</string>
+    <string name="ad_down_load_resume">继续</string>
+    <string name="ad_load_error">广告请求失败 %1$s</string>
+    <string name="ad_loaded">广告请求成功</string>
+    <string name="ad_show_error">广告曝光失败 %1$s</string>
+    <string name="ad_shown">广告被曝光</string>
+    <string name="ad_skip">跳过广告</string>
+    <string name="ad_video_complete">视频广告播放完成</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">启用</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">您必须先启用 Google Play 服务，然后才能运行%1$s。</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">启用 Google Play 服务</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">安装</string>
+    <string name="common_google_play_services_install_text">您的设备没有安装 Google Play 服务，因此无法运行%1$s。</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">获取 Google Play 服务</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play 服务的适用范围</string>
+    <string name="common_google_play_services_notification_ticker">Google Play服务出错</string>
+    <string name="common_google_play_services_unknown_issue">%1$s无法访问 Google Play 服务，请重试。</string>
+    <string name="common_google_play_services_unsupported_text">您的设备不支持 Google Play 服务，因此无法运行%1$s。</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">更新</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">您必须先更新 Google Play 服务，然后才能运行%1$s。</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">更新 Google Play 服务</string>
+    <string name="common_google_play_services_updating_text">Google Play 服务当前正在更新，因此您无法运行%1$s。</string>
+    <string name="common_google_play_services_wear_update_text">必须使用新版 Google Play 服务。该服务很快就会自行更新。</string>
+    <string name="common_open_on_phone">在手机上打开</string>
+    <string name="common_signin_button_text">登录</string>
+    <string name="common_signin_button_text_long">使用 Google 帐号登录</string>
+    <string name="debug_switch">启用调试</string>
+    <string name="dummy_view_text">模拟媒体首页</string>
+    <string name="insert_ad_load">加载插屏广告</string>
+    <string name="insert_ad_show">显示插屏广告</string>
+    <string name="list_title">这是一个普通的列表项 %1$d</string>
+    <string name="menu_banner_ad">banner广告</string>
+    <string name="menu_draw_ad">Draw广告</string>
+    <string name="menu_feed_ad">信息流广告</string>
+    <string name="menu_fullscreeninterstitial_ad">全屏插屏视频</string>
+    <string name="menu_insert_ad">插屏广告</string>
+    <string name="menu_interstitial_ad">插屏广告</string>
+    <string name="menu_native_ad">原生广告</string>
+    <string name="menu_reward_video_ad">激励视频广告</string>
+    <string name="menu_self_render_ad">自渲染广告</string>
+    <string name="menu_splash_ad">开屏广告</string>
+    <string name="menu_template_ad">模板广告</string>
+    <string name="mimo_reward_video_press_back_msg">请点击关闭按钮进行关闭</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"转到上一层级"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"打开抽屉式导航栏"</string>
+    <string name="nav_header_title">聚合SDK测试</string>
+    <string name="navigation_drawer_close">关闭导航栏</string>
+    <string name="navigation_drawer_open">打开导航栏</string>
+    <string name="no_ad_error">没有广告</string>
+    <string name="personalized_switch">启用个性化推荐</string>
+    <string name="request_ads">请求广告</string>
+    <string name="request_ads_hor">请求横向广告</string>
+    <string name="request_ads_ver">请求竖向广告</string>
+    <string name="request_half_img_video_hor">请求横向半屏图片及视频广告</string>
+    <string name="request_half_img_video_ver">请求竖向半屏图片及视频广告</string>
+    <string name="request_half_video_hor">请求横向半屏视频广告</string>
+    <string name="request_half_video_ver">请求竖向半屏视频广告</string>
+    <string name="request_imgads_hor">请求横向半屏图片广告</string>
+    <string name="request_imgads_ver">请求竖向半屏图片广告</string>
+    <string name="request_switch">并行请求</string>
+    <string name="request_videoads_hor">请求横向全屏视频广告</string>
+    <string name="request_videoads_ver">请求竖向全屏视频广告</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"搜索"</string>
+    <string name="setting_feedid">信息流广告id</string>
+    <string name="setting_nativeid">原生广告id</string>
+    <string name="settings">设置</string>
+    <string name="show_ads">显示广告</string>
+    <string name="splash_ad_hor">横版开屏广告</string>
+    <string name="splash_ad_time_out">超时时间：</string>
+    <string name="splash_ad_time_out_notemty">超时时间不能为空</string>
+    <string name="splash_ad_ver">竖版开屏广告</string>
+    <string name="staging_switch">启用测试服务器</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="title_activity_main">主页</string>
+    <string name="version_name">应用版本: %1$s</string>
+    <string name="video_complete_play">播放完成</string>
+    <string name="video_continue_play">继续播放</string>
+    <string name="video_error_play">播放错误%1$d</string>
+    <string name="video_load">视频加载中</string>
+    <string name="video_pause_play">暂停播放</string>
+    <string name="video_start_play">开始播放</string>
+    <string name="xiaomi_market_sdk_update_dialog_cancel">以后再说</string>
+    <string name="xiaomi_market_sdk_update_dialog_ok">立即更新</string>
+    <string name="xiaomi_market_sdk_update_dialog_title">发现新版本</string>
+</resources>

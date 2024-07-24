@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,ExtraTranslation">
+
+    <!--region【必填项】cp务必替换成自己的参数-->
+
+    <!--app 渠道，摸摸鱼渠道应为vapp,（必填）-->
+    <string name="lg_app_channel">vapp</string>
+
+    <!--应用名称,（必填）-->
+    <string name="lg_app_name">摸摸鱼SDKDemo</string>
+
+    <!--【注意！注意！注意！】只为调试使用 release的时候 请设置为false-->
+    <!-- debug=true时，沙盒环境开启。debug=false时，沙盒环境关闭。-->
+    <bool name="lg_debug_switch">false</bool>
+
+    <!--CP根据需求 进行权限申请，以下权限为sdk需要用到的权限。-->
+    <!--为防止频繁申请权限打扰用户，权限申请间隔超过48小时才会弹出一次.-->
+    <!-- 若CP不配置lg_permission_request，SDK将默认申请下列权限.-->
+    <!-- 若CP返回空List，SDK将跳过权限申请.-->
+    <string-array name="lg_permission_request">
+        <item>android.permission.READ_PHONE_STATE</item>
+        <item>android.permission.WRITE_EXTERNAL_STORAGE</item>
+        <item>android.permission.READ_EXTERNAL_STORAGE</item>
+        <item>android.permission.ACCESS_COARSE_LOCATION</item>
+        <item>android.permission.ACCESS_FINE_LOCATION</item>
+    </string-array>
+
+    <!--endregion-->
+
+    <!--region【可选】账号相关配置-->
+
+    <!--登录模式，-1 ：不接入SDK任何登录， 1：静默登录方式，2：弹框登录方式。默认值-1 -->
+    <integer name="lg_account_login_mode">2</integer>
+
+    <!--登录模式选择静默登录，登录失败时是否有Toast展示，true：展示，false：不展示。默认值true -->
+    <bool name="lg_account_silent_login_fail_show_toast_switch">true</bool>
+
+    <!--是否使用SDK提供的昵称系统，true：使用，false：不使用。默认值true -->
+    <bool name="lg_account_nick_name_system_switch">true</bool>
+
+    <!--cp是否允许游客登录，默认允许，1200版本新增字段-->
+    <bool name="lg_account_guest_login_switch">false</bool>
+
+    <!--登录弹窗面板是否展示游客登录按钮，1220版本新增字段，true：展示，false：不展示。默认值true-->
+    <bool name="lg_account_can_show_guest_login_button">false</bool>
+    <!--endregion-->
+
+</resources>

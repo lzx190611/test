@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.sdkmerge.bridge.unityLibrary-release-3:/layout-v21/notification_template_icon_group.xml",
+        "source": "com.sdkmerge.bridge.unityLibrary-core-1.5.0-12:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.sdkmerge.bridge.unityLibrary-release-3:/layout-v21/notification_template_custom_big.xml",
+        "source": "com.sdkmerge.bridge.unityLibrary-core-1.5.0-12:/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "com.sdkmerge.bridge.unityLibrary-release-3:/layout-v21/notification_action_tombstone.xml",
+        "source": "com.sdkmerge.bridge.unityLibrary-core-1.5.0-12:/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "com.sdkmerge.bridge.unityLibrary-release-3:/layout-v21/notification_action.xml",
+        "source": "com.sdkmerge.bridge.unityLibrary-core-1.5.0-12:/layout-v21/notification_action.xml"
+    }
+]

@@ -1,0 +1,29 @@
+{
+    "class": "com.morechili.yuki.library.TapAbroadImpl",
+    "maven":[
+    ],
+    "libs":[
+        "com.xsolla.android:payments:1.3.2",
+        "com.xsolla.android:store:2.5.4",
+        "com.squareup.okhttp3:okhttp:4.10.0"
+    ],
+    "apiLibs":[
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "TAP_ABROAD_CLIENT_ID",
+        "TAP_ABROAD_XSOLLA_PROJECT_ID",
+        "TAP_ABROAD_XSOLLA_PAYMENT_TOKEN_URL"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "descrip": [
+        "注意配置AndroidManifest"
+    ],
+    "libtype": "SDK",
+    "libname": "TapAbroad_SDK"
+}

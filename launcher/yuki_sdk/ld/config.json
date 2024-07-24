@@ -1,0 +1,25 @@
+{
+    "class": "com.morechili.yuki.library.LdImpl",
+    "maven":[
+    ],
+    "libs":[
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "YUKI_BC_LD_GAME_ID",
+        "YUKI_BC_LD_CHANNEL",
+        "YUKI_BC_LD_SUN_CHANNEL",
+        "YUKI_BC_LD_APP_SECRET"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "descrip": [
+        "GameId等参数需要生成AndroidManifest.xml,放到copy路径下(sdk[ld])"
+    ],
+    "libtype": "SDK",
+    "libname": "雷电_SDK"
+}

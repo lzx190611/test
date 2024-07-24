@@ -1,0 +1,41 @@
+{
+    "class": "com.morechili.yuki.library.HWADSImpl",
+    "plugin": [
+
+    ],
+    "maven":[
+        "https://developer.huawei.com/repo/"
+    ],
+    "libs":[
+        "com.huawei.hms:ads-lite:13.4.67.302",
+        "com.huawei.hms:ads-omsdk:1.3.35",
+        "com.huawei.hms:ads-consent:3.4.67.302"
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "BC_HWADS_LANDSCAPE",
+        "BC_HWADS_SPLASH_ID",
+        "BC_HWADS_INSERT_ID",
+        "BC_HWADS_INSERT_FULL_ID",
+        "BC_HWADS_VIDEO_ID",
+        "BC_HWADS_BANNER_ID",
+        "BC_HWADS_BANNER_POS_DATA",
+        "BC_HWADS_INSTREAM_ID",
+        "BC_HWADS_INSTREAM_DATA",
+        "BC_HWADS_REVIEW_INSERT_ID",
+        "BC_HWADS_IS_DEPUTY"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "descrip": [
+        "BC_HWADS_INSERT_FULL_ID = 全屏插屏",
+        "BC_HWADS_BANNER_POS_DATA = 索引:对其方式X(-1,0,1),对其方式Y(0,1),Padding距离x4 -> 例: 1:1,1,100,100,0,0,360,57|2:0,0,0,0,0,0,360,57",
+        "BC_HWADS_INSTREAM_DATA = 总时长-最大次数(默认:30-2) -> 例: 60-4"
+    ],
+    "libtype": "AD",
+    "libname": "华为_广告"
+}

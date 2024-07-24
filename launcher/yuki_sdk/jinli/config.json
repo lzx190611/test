@@ -1,0 +1,26 @@
+{
+    "class": "com.morechili.yuki.library.JinliImpl",
+    "maven":[
+    ],
+    "libs":[
+        "com.liulishuo.filedownloader:library:1.7.5"
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "BC_JL_API_KEY",
+        "BC_JL_PRIVATE_KEY"
+    ],
+    "manifest":[
+    ],
+    "meta":{
+    }, 
+    "jnilibs":[
+    ],
+    "scripts":[
+        "createWXPay.groovy"
+    ],
+    "libtype": "SDK",
+    "libname": "金立_SDK"
+}

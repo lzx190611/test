@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.3.0" type="incidents">
+
+    <incident
+        id="DiscouragedApi"
+        severity="warning"
+        message="Activity should not be non-resizable. With this setting, apps cannot be used in multi-window or free form mode.">
+        <location
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="17"
+            column="341"
+            startOffset="1701"
+            endLine="17"
+            endColumn="375"
+            endOffset="1735"/>
+    </incident>
+
+    <incident
+        id="DiscouragedApi"
+        severity="warning"
+        message="Should not restrict activity to fixed orientation. This may not be suitable for different form factors, causing the app to be letterboxed.">
+        <location
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="17"
+            column="376"
+            startOffset="1736"
+            endLine="17"
+            endColumn="417"
+            endOffset="1777"/>
+    </incident>
+
+    <incident
+        id="MissingLeanbackSupport"
+        severity="error"
+        message="Expecting `&lt;uses-feature android:name=&quot;android.software.leanback&quot; android:required=&quot;false&quot; />` tag">
+        <location
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="2"
+            column="2"
+            startOffset="41"
+            endLine="2"
+            endColumn="10"
+            endOffset="49"/>
+    </incident>
+
+    <incident
+        id="MissingTvBanner"
+        severity="error"
+        message="Expecting `android:banner` with the `&lt;application>` tag or each Leanback launcher activity">
+        <fix-attribute
+            description="Set banner"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="banner"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="8"
+            column="4"
+            startOffset="578"
+            endLine="8"
+            endColumn="15"
+            endOffset="589"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="This folder configuration (`v21`) is unnecessary; `minSdkVersion` is 25. Merge all the resources in this folder into `values`.">
+        <fix-data file="${:unityLibrary*debug*MAIN*sourceProvider*0*resDir*0}/values-v21" folderName="values" requiresApi="25"/>
+        <location
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*resDir*0}/values-v21"/>
+    </incident>
+
+    <incident
+        id="SwitchIntDef"
+        severity="warning"
+        message="Switch statement on an `int` with known associated constant missing case `ComponentCallbacks2.TRIM_MEMORY_BACKGROUND`, `ComponentCallbacks2.TRIM_MEMORY_COMPLETE`, `ComponentCallbacks2.TRIM_MEMORY_MODERATE`, `ComponentCallbacks2.TRIM_MEMORY_UI_HIDDEN`">
+        <fix-data cases="android.content.ComponentCallbacks2.TRIM_MEMORY_BACKGROUND, android.content.ComponentCallbacks2.TRIM_MEMORY_COMPLETE, android.content.ComponentCallbacks2.TRIM_MEMORY_MODERATE, android.content.ComponentCallbacks2.TRIM_MEMORY_UI_HIDDEN"/>
+        <location
+            file="${:unityLibrary*debug*MAIN*sourceProvider*0*javaDir*0}/com/unity3d/player/UnityPlayerActivity.java"
+            line="119"
+            column="9"
+            startOffset="4003"
+            endLine="119"
+            endColumn="15"
+            endOffset="4009"/>
+    </incident>
+
+    <incident
+        id="ChromeOsAbiSupport"
+        severity="warning"
+        message="Missing x86_64 ABI support for ChromeOS">
+        <location
+            file="${:unityLibrary*projectDir}/build.gradle"
+            line="33"
+            column="24"
+            startOffset="1021"
+            endLine="33"
+            endColumn="37"
+            endOffset="1034"/>
+    </incident>
+
+</incidents>

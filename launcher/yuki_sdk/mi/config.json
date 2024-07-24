@@ -1,0 +1,26 @@
+{
+    "class": "com.morechili.yuki.library.MIImpl",
+    "maven":[
+    ],
+    "libs":[
+        "com.google.code.gson:gson:2.9.1"
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+    ],
+    "buildconfigext": [
+    ],
+    "manifest":[
+    ],
+    "meta": {
+    },
+    "jnilibs":[
+    ],
+    "descrip": [
+        "AppId,AppKey需要生成AndroidManifest.xml,放到copy路径下(sdk[mi])"
+    ],
+    "libtype": "SDK",
+    "libname": "小米_SDK"
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">萌翻天消消乐</string>
+    <string name="cancel_merge">取消</string>
+    <string name="merge_exit_cancel">取消</string>
+    <string name="merge_exit_msg">是否退出游戏?</string>
+    <string name="merge_exit_ok">确定</string>
+    <string name="merge_exit_title">退出</string>
+    <string name="notip_merge">不再提示</string>
+    <string name="ok_merge">确定</string>
+    <string name="protocol_cancel_merge">不同意</string>
+    <string name="protocol_content">欢迎下载本游戏,我们非常重视个人信息和隐私保护.请在使用我们的服务前,详细阅读并同意《用户协议》和《隐私政策》\n为了提供完整的游戏体验,我们会向您申请必要的权限和信息.您可选择同意或拒绝权限申请,如果拒绝可能会导致部分游戏体验异常.权限和信息包括\n\n存储权限: 目的为了实现账号,图片的缓存和使用,图片保存和分享\n
+设备信息: 读取Android-ID,硬件序列号,IMEI,手机号,OAID,Mac地址信息,目的为保护账号安全,和游戏体验分析\n</string>
+    <string name="protocol_ok_merge">同意</string>
+    <string name="protocol_second_cancel">不同意并退出</string>
+    <string name="protocol_second_content">我们将严格按照《隐私协议》向您提供服务并保护您的个人信息，\n若您仍不同意，将影响您继续使用%s</string>
+    <string name="protocol_second_title">隐私协议</string>
+    <string name="protocol_span_list">《隐私协议》</string>
+    <string name="protocol_title">个人信息指引保护</string>
+</resources>

@@ -1,0 +1,22 @@
+{
+    "class": "com.morechili.yuki.library.MmyAdsImpl",
+    "maven":[
+    ],
+    "libs":[
+    ],
+    "libsdir":[
+        "libs"
+    ],
+    "buildconfig":[
+        "YUKI_BC_MMYADS_IS_DEPUTY"
+    ],
+    "manifest":[
+    ],
+    "jnilibs":[
+    ],
+    "descrip": [
+        "YUKI_BC_MMYADS_APP_ID 应用key："
+    ],
+    "libtype": "AD",
+    "libname": "摸摸鱼_广告"
+}

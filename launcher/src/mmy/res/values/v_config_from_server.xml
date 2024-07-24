@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,ExtraTranslation">
+
+    <!--region【必填项】cp务必替换成自己的参数-->
+
+    <!--应用名称-->
+    <string name="lg_app_name_v2">萌翻天消消乐_摸摸鱼_摸摸摸鱼_96</string>
+
+    <!--归一化ID-->
+    <string name="lg_app_id">AEGs8Ia6qB8/I+2Z0MfBT1kCvcu4q6gmMkX1gcbF0lVJUe+4+7qoHz8j7ZnQwddbTlX4p+Dt7F1PVP2Wx9XPQRoTvfi8hKgDFxOpzICavAILE5L9vfniTUZF44GTh5MPFASS57qzvQIXOLrRntXZQQkCo/O8qasOBhejzJXZ11IdAP/16uruXRcF95SRxsFPWQei4aCytjAGC67XlJiRDiQCveSGsrxNTEX/gd7VhwwOGqT6hqi9DAQCu4HI1cFPWQe0y7irqCYyRfWB0IoXCqr8rYSHCA==</string>
+
+    <!--隐私政策更新时间，建议为游戏出包时间-->
+    <string name="lg_privacy_time_update">2022-10-21</string>
+
+    <!--隐私政策生效时间，建议为游戏出包时间-->
+    <string name="lg_privacy_time_valid">2022-10-21</string>
+
+    <!--AppLog scheme 联系运营获取，cp务必替换成自己的applog_scheme-->
+    <string name="lg_applog_scheme">rangersapplog.41fc2a3162ab87c1</string>
+
+    <!--region【可选】账号相关配置-->
+
+    <!--一键登录，移动，AppID-->
+    <string name="lg_account_one_key_app_id_cm"></string>
+    <!--一键登录，移动，AppKey-->
+    <string name="lg_account_one_key_app_key_cm"></string>
+
+    <!--一键登录，联通，AppID-->
+    <string name="lg_account_one_key_app_id_cu"></string>
+    <!--一键登录，联通，AppKey-->
+    <string name="lg_account_one_key_app_key_cu"></string>
+
+    <!--一键登录，电信，AppID-->
+    <string name="lg_account_one_key_app_id_ct"></string>
+    <!--一键登录，电信，AppKey-->
+    <string name="lg_account_one_key_app_key_ct"></string>
+
+    <!--endregion-->
+
+
+    <!--region 【可选】推送配置-->
+    <string name="huawei_app_key"></string>
+    <string name="huawei_appId">appid\=</string>
+    <string name="umeng_message_secret"></string>
+    <string name="umeng_app_key"></string>
+    <string name="xiaomi_push_app_id"></string>
+    <string name="xiaomi_push_app_key"></string>
+    <string name="meizu_push_app_id"></string>
+    <string name="meizu_push_app_key"></string>
+    <string name="oppo_push_app_key"></string>
+    <string name="oppo_push_app_secret"></string>
+    <string name="vivo_api_key"></string>
+    <string name="vivo_app_id"></string>
+    <!--endregion-->
+
+	<!--region 【可选】支付配置-->
+    <!--用于生成支付签名，由运营提供，如果不在客户端生成签名，可不填-->
+    <string name="lg_pay_key">8e5e217ec149f499d0d4663401650336</string>
+    <!--endregion-->
+</resources>

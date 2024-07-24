@@ -1,0 +1,68 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+        gradlePluginPortal()
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url 'https://developer.huawei.com/repo/' }
+        maven { url "https://developer.hihonor.com/repo" }
+        maven {url "https://android-sdk.is.com/"}
+        maven {url "https://sdk.tapjoy.com/"}
+        maven {url "https://maven.google.com/"}
+        maven {url "https://imobile-maio.github.io/maven"}
+        maven {url "https://artifact.bytedance.com/repository/pangle"}
+        maven {url "https://cboost.jfrog.io/artifactory/chartboost-ads/"}
+        maven {url "https://cboost.jfrog.io/artifactory/chartboost-mediation"}
+        maven {url "https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea"}
+        maven {url "https://artifact.bytedance.com/repository/pangle"}
+        maven {url "https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_china"}
+        maven {url "https://bintray.com/wechat-sdk-team/maven"}  //微信提供给第三方SDK的仓库
+        maven {
+            url "https://repos.xiaomi.com/maven"
+            credentials {
+                username 'mi-gamesdk'
+                password 'AKCp8mYeLuhuaGj6bK1XK7t2w4CsPuGwg6GpQdZ9cat7K59y5sD7Tx3dHjJcFrBGj3TQ4vi7g'
+            }
+        }
+    }
+}
+
+include ':launcher'
+include ':unityLibrary'
+include 'unityLibrary:sdkmerge_combine.androidlib'
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+
+    repositories {
+        mavenLocal()
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url 'https://developer.huawei.com/repo/' }
+        maven { url "https://developer.hihonor.com/repo" }
+        maven {url "https://android-sdk.is.com/"}
+        maven {url "https://sdk.tapjoy.com/"}
+        maven {url "https://maven.google.com/"}
+        maven {url "https://imobile-maio.github.io/maven"}
+        maven {url "https://artifact.bytedance.com/repository/pangle"}
+        maven {url "https://cboost.jfrog.io/artifactory/chartboost-ads/"}
+        maven {url "https://cboost.jfrog.io/artifactory/chartboost-mediation"}
+        maven {url "https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea"}
+        maven {url "https://artifact.bytedance.com/repository/pangle"}
+        maven {url "https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_china"}
+        maven {url "https://bintray.com/wechat-sdk-team/maven"}  //微信提供给第三方SDK的仓库
+        maven {
+            url "https://repos.xiaomi.com/maven"
+            credentials {
+                username 'mi-gamesdk'
+                password 'AKCp8mYeLuhuaGj6bK1XK7t2w4CsPuGwg6GpQdZ9cat7K59y5sD7Tx3dHjJcFrBGj3TQ4vi7g'
+            }
+        }
+
+        flatDir {
+            dirs "${project(':unityLibrary').projectDir}/libs"
+        }
+    }
+}
